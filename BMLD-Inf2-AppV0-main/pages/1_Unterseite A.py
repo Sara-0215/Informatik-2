@@ -85,7 +85,7 @@ if st.button("CO₂ berechnen"):
         st.success(f"Dein jährlicher CO₂-Ausstoß mit {transportmittel} beträgt **{ergebnis} kg CO₂** pro Jahr.")
         plot_co2_vergleich(transportmittel, ergebnis)  # Diagramm anzeigen
     else:
-        st.error("Bitte wähle ein gültiges Transportmittel.")
+        st.error("Bitte wähle ein gültiges Transportmittel.") 
 
 
 
