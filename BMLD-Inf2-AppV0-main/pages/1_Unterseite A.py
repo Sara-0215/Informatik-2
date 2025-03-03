@@ -38,7 +38,7 @@ if st.button("CO₂ berechnen"):
 st.markdown("<h1 style='text-align: center; color: green;'>🌍 CO₂-Fußabdruck Rechner</h1>", unsafe_allow_html=True)
 st.write("Berechne deinen jährlichen CO₂-Ausstoß basierend auf deinem Transportmittel.")
 
- import streamlit as st
+import streamlit as st
 import plotly.express as px  # Für Diagramme
 
 # CO₂-Emissionen in g/km für verschiedene Transportmittel
