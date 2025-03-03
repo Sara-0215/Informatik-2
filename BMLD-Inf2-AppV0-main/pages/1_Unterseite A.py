@@ -87,6 +87,9 @@ if st.button("CO₂ berechnen"):
     else:
         st.error("Bitte wähle ein gültiges Transportmittel.") 
 
+transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()), key="transportwahl")
+
+
 
 
         
