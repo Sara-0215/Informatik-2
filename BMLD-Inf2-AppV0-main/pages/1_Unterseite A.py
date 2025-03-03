@@ -90,6 +90,15 @@ if st.button("CO₂ berechnen"):
 transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()), key="transportwahl")
 
 
+transportmittel = st.selectbox(
+    "Wähle dein Transportmittel:", 
+    list(CO2_WERTE.keys()), 
+    key="transportwahl_1"
+)
+
+option_1 = st.selectbox("Erste Auswahl:", ["A", "B", "C"], key="auswahl_1")
+option_2 = st.selectbox("Zweite Auswahl:", ["X", "Y", "Z"], key="auswahl_2")
+ 
 
 
         
