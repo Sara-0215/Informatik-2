@@ -38,26 +38,7 @@ if st.button("CO₂ berechnen"):
 st.markdown("<h1 style='text-align: center; color: green;'>🌍 CO₂-Fußabdruck Rechner</h1>", unsafe_allow_html=True)
 st.write("Berechne deinen jährlichen CO₂-Ausstoß basierend auf deinem Transportmittel.")
 
-import matplotlib.pyplot as plt
-
-# Balkendiagramm erstellen
-def plot_co2_vergleich(dein_wert):
-    labels = list(CO2_WERTE.keys())
-    werte = [CO2_WERTE[t] * km_pro_tag * 365 / 1000 for t in labels]
-
-    plt.figure(figsize=(8, 5))
-    plt.bar(labels, werte, color=['gray' if t != transportmittel else 'green' for t in labels])
-    plt.ylabel("CO₂-Ausstoß (kg/Jahr)")
-    plt.xticks(rotation=45, ha='right')
-    plt.title("CO₂-Ausstoß verschiedener Transportmittel")
-
-    st.pyplot(plt)
-
-if st.button("CO₂ berechnen"):
-    ergebnis = berechne_co2(transportmittel, km_pro_tag)
-    if ergebnis is not None:
-        st.success(f"Dein jährlicher CO₂-Ausstoß mit {transportmittel} beträgt **{ergebnis} kg CO₂**.")
-        plot_co2_vergleich(ergebnis)  # Diagramm anzeigen
+ 
 
         
 
