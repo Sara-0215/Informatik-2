@@ -57,6 +57,7 @@ if st.button("CO₂ berechnen"):
     ergebnis = berechne_co2(transportmittel, km_pro_tag)
     if ergebnis is not None:
         st.success(f"Dein jährlicher CO₂-Ausstoß mit {transportmittel} beträgt **{ergebnis} kg CO₂**.")
-        plot_co2_vergleich(ergebnis)  # Diagramm anzeigen
+        plot_co2_vergleich(ergebnis)  # Diagramm anzeigen 
+        
 
 
