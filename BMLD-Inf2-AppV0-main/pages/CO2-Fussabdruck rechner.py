@@ -86,8 +86,10 @@ st.bar_chart(
     data.set_index("Kategorie"),
     y="CO₂-Verbrauch (kg/Jahr)",
     color="Farbe",
+    horizontal=True,  # hier setzen wir horizontal=True
     use_container_width=True
 )
+
 
 
 
