@@ -1,4 +1,4 @@
-# 🌍 CO₂-Fußabdruck Rechner
+# 🌍 CO₂-Fussabdruck Rechner
 
 Diese App berechnet den jährlichen CO₂-Ausstoss basierend auf dem Transportmittel und dem Ernährungstyp. 
 
