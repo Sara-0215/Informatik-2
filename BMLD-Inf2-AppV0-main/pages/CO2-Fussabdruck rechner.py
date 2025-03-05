@@ -13,7 +13,7 @@ CO2_WERTE = {
     "Zug": 40,
     "Flugzeug": 250,
     "Fahrrad": 0,
-    "Zu Fuß": 0 
+    "Zu Fuß": 0, 
     "E-Bus": 50,
     "Tram": 30
 }
