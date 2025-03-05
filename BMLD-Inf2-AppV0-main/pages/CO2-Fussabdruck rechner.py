@@ -71,34 +71,18 @@ import pandas as pd
 average_co2 = 3090
 
 # Benutzer-Eingabe für CO₂-Verbrauch
-user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1)
+user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1, key="co2_input")
 
 # Daten für das Balkendiagramm
 data = pd.DataFrame({
     "Kategorie": ["Durchschnittlicher Schweizer", "Dein Verbrauch"],
-    "CO₂-Verbrauch (t/Jahr)": [average_co2, user_co2]
+    "CO₂-Verbrauch (t/Jahr)": [average_co2, user_co2],
+    "Farbe": ["#32CD32", "#32CD32" if user_co2 < average_co2 else "#FF4B4B"]  # Grün für niedrigen Verbrauch, Rot für hohen Verbrauch
 })
 
-# Balkendiagramm anzeigen
-st.bar_chart(data.set_index("Kategorie"), use_container_width=True) 
+# Balkendiagramm anzeigen mit Farbe und vertikaler Achsenbeschriftung
+fig = px.bar(data, x="Kategorie", y="CO₂-Verbrauch (t/Jahr)", color="Farbe",
+             labels={"Kategorie": "Kategorie", "CO₂-Verbrauch (t/Jahr)": "CO₂-Verbrauch (kg/Jahr)"})
+fig.update_layout(xaxis_tickangle=-90)
 
-# Durchschnittlicher CO₂-Verbrauch eines Schweizers (in kg pro Jahr)
-average_co2 = 3090
-
-# Benutzer-Eingabe für CO₂-Verbrauch
-user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1)
-
-# Daten für das Balkendiagramm
-data = {
-    "Kategorie": ["Durchschnittlicher Schweizer", "Dein Verbrauch"],
-    "CO₂-Verbrauch (kg/Jahr)": [average_co2, user_co2]
-}
-
-# Balkendiagramm anzeigen
-st.bar_chart(
-    data,
-    x="Kategorie",
-    y="CO₂-Verbrauch (kg/Jahr)",
-    color=["#FF4B4B" if user_co2 > average_co2 else "#32CD32", "#32CD32"],
-    use_container_width=True
-)
+st.plotly_chart(fig, use_container_width=True) 
