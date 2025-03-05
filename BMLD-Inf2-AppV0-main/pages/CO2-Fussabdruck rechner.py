@@ -55,8 +55,7 @@ if st.button("Gesamt CO₂ berechnen"):
     gesamt_ergebnis = berechne_gesamt_co2(km_pro_tag_mehrere)
     st.success(f"Dein jährlicher CO₂-Ausstoß mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
 
-st.markdown("<h1 style='text-align: center; color: green;'>🌍 CO₂-Fußabdruck Rechner</h1>", unsafe_allow_html=True)
-st.write("Berechne deinen jährlichen CO₂-Ausstoß basierend auf deinem Transportmittel.")
+
 
         
 
