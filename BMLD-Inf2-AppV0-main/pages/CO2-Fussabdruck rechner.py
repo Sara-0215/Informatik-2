@@ -81,3 +81,33 @@ data = pd.DataFrame({
 
 # Balkendiagramm anzeigen
 st.bar_chart(data.set_index("Kategorie"), use_container_width=True) 
+
+# Ergänztes Diagramm mit Plotly, dynamischen Farben und Beschriftung
+def plot_dynamisches_co2_diagramm(user_co2, average_co2=3090):
+    import plotly.express as px
+    import pandas as pd
+
+    # Daten vorbereiten
+    data = pd.DataFrame({
+        "Kategorie": ["Durchschnittlicher Schweizer 🇨🇭", "Dein Verbrauch 🌱"],
+        "CO₂-Verbrauch (kg/Jahr)": [average_co2, user_co2]
+    })
+
+    # Dynamische Farben je nach Verbrauch
+    farben = ['green' if wert < average_co2 else 'red' for wert in data["CO₂-Verbrauch (t/Jahr)"]]
+
+    fig = px.bar(
+        data, 
+        x="Kategorie", 
+        y="CO₂-Verbrauch (t/Jahr)", 
+        color="Kategorie",
+        color_discrete_sequence=farben,
+        title="📊 Dein CO₂-Verbrauch im Vergleich zum Durchschnitt"
+    )
+
+    # Diagramm anzeigen
+    st.plotly_chart(fig, use_container_width=True)
+
+# Diagramm anzeigen wenn User-Eingabe vorhanden ist
+if user_co2 > 0:
+    plot_dynamisches_co2_diagramm(user_co2)
