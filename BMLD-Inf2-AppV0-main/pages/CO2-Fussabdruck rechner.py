@@ -72,20 +72,37 @@ import streamlit as st
 average_co2 = 3090
 
 # Benutzer-Eingabe für CO₂-Verbrauch
-user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1)
+user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1, key="user_co2_input")
+
+# Festlegen der Farbe basierend auf deinem Verbrauch
+farbe_user = "#32CD32" if user_co2 <= average_co2 else "#FF4B4B"  # Grün wenn geringer oder gleich, Rot wenn höher
 
 # Daten vorbereiten
 data = pd.DataFrame({
     "Kategorie": ["Durchschnittlicher Schweizer", "Dein Verbrauch"],
     "CO₂-Verbrauch (kg/Jahr)": [average_co2, user_co2],
-    "Farbe": ["#FF4B4B" if user_co2 > average_co2 else "#32CD32", "#32CD32"]
+    "Farbe": ["#1f77b4", Farbe]  # Durchschnitt immer blau, User dynamisch
 })
 
-# Balkendiagramm anzeigen
+# Diagramm anzeigen
 st.bar_chart(
     data.set_index("Kategorie"),
     y="CO₂-Verbrauch (kg/Jahr)",
-    color="Farbe",
+    color=["#4682B4", Farbe],  # Blau für Durchschnitt, dynamische Farbe für Nutzer
     use_container_width=True
 )
+
+# Vertikale Beschriftung über Markdown-Trick (einfacher Weg)
+st.markdown(
+    """
+    <style>
+    .st-emotion-cache-1g7hxtc text {
+        writing-mode: vertical-rl;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 
