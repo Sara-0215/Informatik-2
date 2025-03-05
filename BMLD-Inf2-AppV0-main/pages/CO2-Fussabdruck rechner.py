@@ -19,9 +19,24 @@ CO2_WERTE = {
     "E-Bus": 50,
     "Tram": 30
 }
+# Mapping von Transportmitteln zu Emojis
+TRANSPORT_EMOJIS = {
+    "Auto (Benzin)": "🚗",
+    "Auto (Diesel)": "🚗",
+    "Bus": "🚌",
+    "Zug": "🚆",
+    "Flugzeug": "✈️",
+    "Fahrrad": "🚴",
+    "Zu Fuß": "🚶",
+    "E-Bus": "🚌⚡",
+    "Tram": "🚋"
+}
 
-# Benutzer-Eingabe
-st.markdown("### 🚗 Einzelne Transportmittel")
+emoji = TRANSPORT_EMOJIS.get("Transportmittel", "🚗")  # Standardemoji
+
+st.markdown(f"### {emoji} Einzelne Transportmittel".replace("🚗", emoji:=CO2_WERTE.get("Transportmittel", "🚗")))
+st.markdown(f"### {emoji} Einzelne Transportmittel")
+
 transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()))
 km_pro_tag = st.number_input("Wie viele Kilometer fährst du pro Tag?", min_value=0.0, step=0.1)
 
@@ -36,9 +51,10 @@ def berechne_co2(transportmittel, km_pro_tag):
 # Berechnung starten
 if st.button("CO₂ berechnen"):
     ergebnis = berechne_co2(transportmittel, km_pro_tag)
+    emoji = CO2_WERTE.get(transportmittel, "🚗")
     if ergebnis is not None:
         color = "green" if ergebnis < 1000 else "red"
-        st.markdown(f"<h4 style='color:{color}'>Dein jährlicher CO₂-Ausstoss mit {transportmittel} beträgt <b>{ergebnis} kg CO₂</b> pro Jahr.</h4>", unsafe_allow_html=True)
+        st.markdown(f"<h4 style='color:{color}'>{emoji}Dein jährlicher CO₂-Ausstoss mit {transportmittel} beträgt <b>{ergebnis} kg CO₂</b> pro Jahr.</h4>", unsafe_allow_html=True)
     else:   
         st.error("Bitte wähle ein gültiges Transportmittel.")
 
