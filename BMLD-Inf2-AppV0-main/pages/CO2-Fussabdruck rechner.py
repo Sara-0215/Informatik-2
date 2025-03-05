@@ -1,4 +1,5 @@
 import streamlit as st
+import matplotlib.pyplot as plt
 
 # Titel der Unterseite
 st.title("🌍 CO₂-Fußabdruck Rechner")
