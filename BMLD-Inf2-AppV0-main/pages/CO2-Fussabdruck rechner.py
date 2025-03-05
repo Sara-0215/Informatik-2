@@ -1,5 +1,4 @@
 import streamlit as st
-import plotly.express as px
 
 # Titel der Unterseite
 st.title("🌍 CO₂-Fussabdruck Rechner")
@@ -46,11 +45,23 @@ if st.button("CO₂ berechnen"):
 st.divider()  # Trennlinie für bessere Struktur
 
 # Multi-Transportmittel Berechnung
-st.markdown("### 🔄 Berechnung für mehrere Transportmittel")
-co2_input = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=1.0)
+st.markdown("### Berechnung für mehrere Transportmittel")
+ausgewaehlte_transportmittel = st.multiselect("Wähle deine Transportmittel:", list(CO2_WERTE.keys()))
+
+km_pro_tag_mehrere = {}
+for t in ausgewaehlte_transportmittel:
+    km_pro_tag_mehrere[t] = st.number_input(f"Wie viele Kilometer fährst du pro Tag mit {t}?", min_value=0.0, step=0.1, key=t)
+
+def berechne_gesamt_co2(km_pro_tag_mehrere):
+    """Berechnet den jährlichen CO₂-Ausstoß basierend auf mehreren Transportmitteln und deren täglicher Strecke."""
+    gesamt_co2 = 0
+    for t, km in km_pro_tag_mehrere.items():
+        gesamt_co2 += (CO2_WERTE[t] * km * 365) / 1000  # Umrechnung in kg
+    return round(gesamt_co2, 2)
+
 if st.button("Gesamt CO₂ berechnen"):
-    color = "green" if co2_input < 5000 else "red"
-    st.markdown(f"<h4 style='color:{color}'>Dein Gesamt-CO₂-Ausstoß beträgt <b>{co2_input} kg CO₂</b> pro Jahr.</h4>", unsafe_allow_html=True)
+    gesamt_ergebnis = berechne_gesamt_co2(km_pro_tag_mehrere)
+    st.success(f"Dein jährlicher CO₂-Ausstoß mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
 
 st.divider()  # Trennlinie
 
