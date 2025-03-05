@@ -89,6 +89,24 @@ st.bar_chart(
     horizontal=True,  # hier setzen wir horizontal=True
     use_container_width=True
 )
+st.divider()
+st.markdown("### 🌿 Ernährungstyp und CO₂-Ausstoß")
+
+ernaehrung_typ = st.selectbox("Wähle deinen Ernährungstyp:", ["Fleischesser", "Vegetarier", "Veganer"])
+
+CO2_ERNAEHRUNG = {
+    "Fleischesser": 2500,   # kg CO₂ pro Jahr
+    "Vegetarier": 1700,
+    "Veganer": 1500
+}
+
+co2_ernaehrung = CO2_WERTE.get(ernaehrung_typ, 0)
+
+st.write(f"Dein jährlicher CO₂-Ausstoß durch Ernährung als **{ernaehrung_typ}** beträgt **{co2_ernaehrung} kg CO₂** pro Jahr.")
+if co2_ernaehrung > 1500:
+    st.warning("Dein Ernährungsstil verursacht relativ viel CO₂. Versuche weniger tierische Produkte zu konsumieren, um deinen CO₂-Ausstoß deutlich zu reduzieren!")
+else:
+    st.success("🌱 Sehr gut! Deine Ernährung verursacht vergleichsweise wenig CO₂.")
 
 
 
