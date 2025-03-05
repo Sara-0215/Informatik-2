@@ -22,6 +22,18 @@ CO2_WERTE = {
 # Benutzer-Eingabe
 st.markdown("### 🚗 Einzelne Transportmittel")
 
+TRANSPORT_EMOJIS = {
+    "Auto (Benzin)": "🚗",
+    "Auto (Diesel)": "🚗",
+    "Bus": "🚌",
+    "Zug": "🚆",
+    "Flugzeug": "✈️",
+    "Fahrrad": "🚴",
+    "Zu Fuß": "🚶",
+    "E-Bus": "🚌⚡",
+    "Tram": "🚋"
+}
+
 transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()))
 km_pro_tag = st.number_input("Wie viele Kilometer fährst du pro Tag?", min_value=0.0, step=0.1)
 
