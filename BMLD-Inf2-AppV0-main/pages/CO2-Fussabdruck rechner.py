@@ -1,6 +1,4 @@
 import streamlit as st
-import matplotlib.pyplot as plt
-import pandas as pd
 
 # Titel der Unterseite
 st.title("🌍 CO₂-Fußabdruck Rechner")
@@ -19,9 +17,6 @@ CO2_WERTE = {
     "E-Bus": 50,
     "Tram": 30
 }
-
-# Durchschnittlicher CO₂-Verbrauch eines Schweizers pro Jahr (in kg)
-durchschnitt_co2_schweiz = 1560  # 1.56 Tonnen in kg
 
 # Benutzer-Eingabe
 transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()))
@@ -62,17 +57,23 @@ if st.button("Gesamt CO₂ berechnen"):
     gesamt_ergebnis = berechne_gesamt_co2(km_pro_tag_mehrere)
     st.success(f"Dein jährlicher CO₂-Ausstoß mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
 
-    # Balkendiagramm erstellen
-    fig, ax = plt.subplots()
-    labels = ['Durchschnitt Schweiz', 'Dein Verbrauch']
-    values = [durchschnitt_co2_schweiz, gesamt_ergebnis]
-    colors = ['blue', 'green' if gesamt_ergebnis <= durchschnitt_co2_schweiz else 'red']
-    
-    ax.bar(labels, values, color=colors)
-    ax.set_ylabel('CO₂-Ausstoß (kg)')
-    ax.set_title('Vergleich des CO₂-Ausstoßes')
-    
-    # Titel vertikal anzeigen
-    ax.set_xticklabels(labels, rotation=90)
-    
-    # Einschnitte für "Dein Verbrauch"
+
+import pandas as pd
+
+# Durchschnittlicher CO₂-Verbrauch eines Schweizers (in kg pro Jahr)
+average_co2 = 3090 
+
+# Benutzer-Eingabe für CO₂-Verbrauch
+user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in Tonnen ein:", min_value=0.0, step=0.1)
+
+# Daten für das Balkendiagramm
+data = pd.DataFrame({
+    "Kategorie": ["Durchschnittlicher Schweizer", "Dein Verbrauch"],
+    "CO₂-Verbrauch (t/Jahr)": [average_co2, user_co2]
+})
+
+# Balkendiagramm anzeigen
+st.bar_chart(data.set_index("Kategorie"), use_container_width=True)
+
+
+
