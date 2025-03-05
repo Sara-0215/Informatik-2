@@ -58,3 +58,19 @@ if st.button("Gesamt CO₂ berechnen"):
     st.success(f"Dein jährlicher CO₂-Ausstoß mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
 
 
+import pandas as pd
+
+# Durchschnittlicher CO₂-Verbrauch eines Schweizers (in kg pro Jahr)
+average_co2 = 3090
+
+# Benutzer-Eingabe für CO₂-Verbrauch
+user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in Tonnen ein:", min_value=0.0, step=0.1)
+
+# Daten für das Balkendiagramm
+data = pd.DataFrame({
+    "Kategorie": ["Durchschnittlicher Schweizer", "Dein Verbrauch"],
+    "CO₂-Verbrauch (t/Jahr)": [average_co2, user_co2]
+})
+
+# Balkendiagramm anzeigen
+st.bar_chart(data.set_index("Kategorie"), use_container_width=True)
