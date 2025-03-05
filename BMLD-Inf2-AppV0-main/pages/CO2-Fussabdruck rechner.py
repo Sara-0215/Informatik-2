@@ -64,7 +64,7 @@ import pandas as pd
 average_co2 = 3090
 
 # Benutzer-Eingabe für CO₂-Verbrauch
-user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in Tonnen ein:", min_value=0.0, step=0.1)
+user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1)
 
 # Daten für das Balkendiagramm
 data = pd.DataFrame({
