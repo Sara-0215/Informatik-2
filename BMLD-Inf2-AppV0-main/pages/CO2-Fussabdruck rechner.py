@@ -64,16 +64,35 @@ import pandas as pd
 average_co2 = 3090 
 
 # Benutzer-Eingabe für CO₂-Verbrauch
-user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in Tonnen ein:", min_value=0.0, step=0.1)
+user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch für Transport in Tonnen ein:", min_value=0.0, step=0.1)
+
+# Aufteilung des Nutzer-Verbrauchs auf verschiedene Transportmittel
+car_co2 = st.number_input("CO₂-Verbrauch durch Auto (t/Jahr):", min_value=0.0, step=0.1)
+bus_co2 = st.number_input("CO₂-Verbrauch durch Bus (t/Jahr):", min_value=0.0, step=0.1)
+train_co2 = st.number_input("CO₂-Verbrauch durch Zug (t/Jahr):", min_value=0.0, step=0.1)
+plane_co2 = st.number_input("CO₂-Verbrauch durch Flugzeug (t/Jahr):", min_value=0.0, step=0.1)
+
+# Summe des Nutzerverbrauchs
+user_total_co2 = car_co2 + bus_co2 + train_co2 + plane_co2
+
+# Farbe bestimmen (grün, wenn weniger als Durchschnitt, sonst rot)
+bar_color = "green" if user_total_co2 < average_co2 else "red"
 
 # Daten für das Balkendiagramm
 data = pd.DataFrame({
     "Kategorie": ["Durchschnittlicher Schweizer", "Dein Verbrauch"],
-    "CO₂-Verbrauch (t/Jahr)": [average_co2, user_co2]
+    "CO₂-Verbrauch (t/Jahr)": [average_co2, user_total_co2]
 })
 
-# Balkendiagramm anzeigen
+# Balkendiagramm anzeigen mit gestapeltem Balken für den Nutzer
 st.bar_chart(data.set_index("Kategorie"), use_container_width=True)
 
+# Zusätzliche Erklärung
+st.write("### Detaillierte Aufschlüsselung deines Verbrauchs:")
+st.write(f"Auto: {car_co2} t/Jahr")
+st.write(f"Bus: {bus_co2} t/Jahr")
+st.write(f"Zug: {train_co2} t/Jahr")
+st.write(f"Flugzeug: {plane_co2} t/Jahr")
 
-
+# Hinweis auf Farbinterpretation
+st.markdown(f"Dein Balken ist **{bar_color}**, weil du {'weniger' if user_total_co2 < average_co2 else 'mehr'} CO₂ als der Durchschnitt verbrauchst.")
