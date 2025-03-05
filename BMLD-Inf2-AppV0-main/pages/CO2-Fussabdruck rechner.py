@@ -15,7 +15,7 @@ CO2_WERTE = {
     "Zug": 40,
     "Flugzeug": 250,
     "Fahrrad": 0,
-    "Zu Fuß": 0, 
+    "Zu Fuss": 0, 
     "E-Bus": 50,
     "Tram": 30
 }
@@ -38,7 +38,7 @@ if st.button("CO₂ berechnen"):
     ergebnis = berechne_co2(transportmittel, km_pro_tag)
     if ergebnis is not None:
         color = "green" if ergebnis < 1000 else "red"
-        st.markdown(f"<h4 style='color:{color}'>Dein jährlicher CO₂-Ausstoß mit {transportmittel} beträgt <b>{ergebnis} kg CO₂</b> pro Jahr.</h4>", unsafe_allow_html=True)
+        st.markdown(f"<h4 style='color:{color}'>Dein jährlicher CO₂-Ausstoss mit {transportmittel} beträgt <b>{ergebnis} kg CO₂</b> pro Jahr.</h4>", unsafe_allow_html=True)
     else:   
         st.error("Bitte wähle ein gültiges Transportmittel.")
 
@@ -53,7 +53,7 @@ for t in ausgewaehlte_transportmittel:
     km_pro_tag_mehrere[t] = st.number_input(f"Wie viele Kilometer fährst du pro Tag mit {t}?", min_value=0.0, step=0.1, key=t)
 
 def berechne_gesamt_co2(km_pro_tag_mehrere):
-    """Berechnet den jährlichen CO₂-Ausstoß basierend auf mehreren Transportmitteln und deren täglicher Strecke."""
+    """Berechnet den jährlichen CO₂-Ausstoss basierend auf mehreren Transportmitteln und deren täglicher Strecke."""
     gesamt_co2 = 0
     for t, km in km_pro_tag_mehrere.items():
         gesamt_co2 += (CO2_WERTE[t] * km * 365) / 1000  # Umrechnung in kg
@@ -61,7 +61,7 @@ def berechne_gesamt_co2(km_pro_tag_mehrere):
 
 if st.button("Gesamt CO₂ berechnen"):
     gesamt_ergebnis = berechne_gesamt_co2(km_pro_tag_mehrere)
-    st.success(f"Dein jährlicher CO₂-Ausstoß mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
+    st.success(f"Dein jährlicher CO₂-Ausstoss mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
 
 st.divider()  # Trennlinie
 
@@ -93,7 +93,7 @@ st.divider()
 
 import streamlit as st
 
-st.markdown("### 🌿 Ernährungstyp und CO₂-Ausstoß")
+st.markdown("### 🌿 Ernährungstyp und CO₂-Ausstoss")
 
 # CO₂-Emissionen pro Ernährungsstil in kg/Jahr (vereinfacht geschätzt)
 ERNAEHRUNGS_WERTE = {
@@ -110,11 +110,11 @@ co2_ernaehrung = ERNAEHRUNGS_WERTE[ernaehrungstyp]
 if st.button("CO₂ der Ernährung berechnen"):
     color = "green" if co2_ernaehrung < 2000 else "red"
     st.markdown(
-        f"<h4 style='color:{color}'>Dein jährlicher CO₂-Ausstoß durch Ernährung als {ernaehrungstyp} beträgt {ERNAEHRUNGS_WERTE[ernaehrungstyp]} kg CO₂.</h4>",
+        f"<h4 style='color:{color}'>Dein jährlicher CO₂-Ausstoss durch Ernährung als {ernaehrungstyp} beträgt {ERNAEHRUNGS_WERTE[ernaehrungstyp]} kg CO₂.</h4>",
         unsafe_allow_html=True)
 
 if ernaehrungstyp == "Fleischesser":
-    st.info("🍽️ Tipp: Eine Reduktion von Fleischprodukten reduziert deinen CO₂-Ausstoß um bis zu 25%!")
+    st.info("🍽️ Tipp: Eine Reduktion von Fleischprodukten reduziert deinen CO₂-Ausstoss um bis zu 25%!")
 
 st.divider()
 
