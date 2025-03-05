@@ -66,31 +66,46 @@ if st.button("Gesamt CO₂ berechnen"):
 st.divider()  # Trennlinie
 
 import pandas as pd
-import streamlit as st
 
-# Durchschnittlicher CO₂-Verbrauch eines Schweizers (in kg pro Jahr)
+# Durchschnittlicher CO₂-Verbrauch
 average_co2 = 3090
 
-# Benutzer-Eingabe für CO₂-Verbrauch
-user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1)
+# Benutzer-Eingabe (mit eigenem Key um Fehler zu vermeiden!)
+user_co2 = st.number_input(
+    "Gib deinen jährlichen CO₂-Verbrauch in kg ein:", 
+    min_value=0.0, 
+    step=0.1, 
+    key="user_co2"
+)
 
-# Farbe dynamisch festlegen
-Farbe = "#32CD32" if user_co2 <= average_co2 else "#FF4B4B"  
+# Dynamische Farbe basierend auf Nutzerverbrauch
+color = "#32CD32" if user_co2 <= average_co2 else "#FF4B4B"
 
-# Daten für das Balkendiagramm
-data = pd.DataFrame({
+# Daten für Diagramm
+chart_data = pd.DataFrame({
     "Kategorie": ["Durchschnittlicher Schweizer", "Dein Verbrauch"],
-    "CO₂-Verbrauch (kg/Jahr)": [average_co2, user_co2],
-    "Farbe": ["#1f77b4", Farbe]  # Durchschnitt immer blau, User dynamisch
+    "CO₂-Verbrauch (kg/Jahr)": [average_co2, user_co2]
 })
 
-# Balkendiagramm anzeigen
+# Balkendiagramm anzeigen mit Streamlit
 st.bar_chart(
-    data.set_index("Kategorie"),
+    chart_data.set_index("Kategorie"),
     y="CO₂-Verbrauch (kg/Jahr)",
-    color=data["Farbe"],
+    color=[ "#4682B4", color ],  # Durchschnitt blau, Nutzer dynamisch
     use_container_width=True
 )
+
+# Vertikale Beschriftung per Markdown als Alternative
+st.markdown("""
+<style>
+[data-testid="stVerticalBlock"] text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+</style>
+""", unsafe_allow_html=True)
+
+
 
 
 
