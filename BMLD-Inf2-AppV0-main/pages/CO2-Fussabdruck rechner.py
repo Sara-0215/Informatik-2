@@ -82,8 +82,6 @@ data = pd.DataFrame({
 # Balkendiagramm anzeigen
 st.bar_chart(data.set_index("Kategorie"), use_container_width=True) 
 
-import streamlit as st
-
 # Durchschnittlicher CO₂-Verbrauch eines Schweizers (in kg pro Jahr)
 average_co2 = 3090
 
