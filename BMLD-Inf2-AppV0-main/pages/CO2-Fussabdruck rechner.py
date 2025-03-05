@@ -1,6 +1,10 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 
+# Importiere die benötigten Bibliotheken
+import streamlit as st
+import matplotlib.pyplot as plt
+
 # Titel der Unterseite
 st.title("🌍 CO₂-Fußabdruck Rechner")
 
@@ -59,6 +63,7 @@ if st.button("Gesamt CO₂ berechnen"):
     st.success(f"Dein jährlicher CO₂-Ausstoß mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
 
  # Balkendiagramm erstellen
+    durchschnitt_co2_schweiz = 1560  # Beispielwert für den durchschnittlichen CO₂-Ausstoß in der Schweiz
     fig, ax = plt.subplots()
     labels = ['Durchschnitt Schweiz', 'Dein Verbrauch']
     values = [durchschnitt_co2_schweiz, gesamt_ergebnis]
