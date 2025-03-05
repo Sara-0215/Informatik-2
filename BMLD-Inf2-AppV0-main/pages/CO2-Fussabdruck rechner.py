@@ -56,43 +56,17 @@ st.divider()  # Trennlinie
 
 import pandas as pd
 
-# Daten für Vergleich mit Schweizer Durchschnitt
+# Durchschnittlicher CO₂-Verbrauch eines Schweizers (in kg pro Jahr)
 average_co2 = 3090
 
-# Benutzer-Eingabe für Vergleich
-st.markdown("### 📊 Vergleich mit Durchschnitt")
+# Benutzer-Eingabe für CO₂-Verbrauch
 user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1)
 
 # Daten für das Balkendiagramm
 data = pd.DataFrame({
     "Kategorie": ["Durchschnittlicher Schweizer", "Dein Verbrauch"],
-    "CO₂-Verbrauch (kg/Jahr)": [average_co2, user_co2]
+    "CO₂-Verbrauch (t/Jahr)": [average_co2, user_co2]
 })
 
 # Balkendiagramm anzeigen
-st.bar_chart(data.set_index("Kategorie"), use_container_width=True)
-
-st.divider()  # Trennlinie für bessere Struktur
-
-# Diagramm-Funktion für Transportmittelvergleich
-def plot_co2_vergleich(km_pro_tag):
-    labels = list(CO2_WERTE.keys())
-    werte = [CO2_WERTE[t] * km_pro_tag * 365 / 1000 for t in labels]
-    farben = ["green" if w < 1000 else "red" for w in werte]  # Grün für niedrige Werte, Rot für hohe
-
-    fig = px.bar(
-        x=labels, 
-        y=werte, 
-        title="CO₂-Ausstoß verschiedener Transportmittel",
-        labels={"x": "Transportmittel", "y": "CO₂-Ausstoß (kg/Jahr)"},
-        color=werte,
-        color_continuous_scale=["green", "yellow", "red"]
-    )
-    st.plotly_chart(fig)
-
-# Button und Anzeige
-if st.button("Vergleich CO₂ pro Transportmittel anzeigen"):
-    if km_pro_tag > 0:
-        plot_co2_vergleich(km_pro_tag)
-    else:
-        st.error("Bitte gib eine gültige Kilometeranzahl ein.")
+st.bar_chart(data.set_index("Kategorie"), use_container_width=True) 
