@@ -76,6 +76,7 @@ user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", 
 
 # Festlegen der Farbe basierend auf deinem Verbrauch
 farbe_user = "#32CD32" if user_co2 <= average_co2 else "#FF4B4B"  # Grün wenn geringer oder gleich, Rot wenn höher
+Farbe = "#32CD32" if user_co2 <= average_co2 else "#FF4B4B"
 
 # Daten vorbereiten
 data = pd.DataFrame({
