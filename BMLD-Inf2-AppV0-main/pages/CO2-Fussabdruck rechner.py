@@ -73,4 +73,4 @@ data = pd.DataFrame({
 })
 
 # Balkendiagramm anzeigen
-st.bar_chart(data.set_index("Kategorie"), use_container_width=True)
+st.bar_chart(data.set_index("Kategorie"), use_container_width=True) 
