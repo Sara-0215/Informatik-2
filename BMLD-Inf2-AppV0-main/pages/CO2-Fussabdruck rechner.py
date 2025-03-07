@@ -92,32 +92,7 @@ st.bar_chart(
 )
 st.divider()
 
-import streamlit as st
 
-st.markdown("### 🌿 Ernährungstyp und CO₂-Ausstoss")
-
-# CO₂-Emissionen pro Ernährungsstil in kg/Jahr (vereinfacht geschätzt)
-ERNAEHRUNGS_WERTE = {
-    "Fleischesser": 2500,
-    "Flexitarier": 2000,
-    "Vegetarier": 1700,
-    "Veganer": 1500
-}
-
-ernaehrungstyp = st.selectbox("Wähle deinen Ernährungstyp:", list(ERNAEHRUNGS_WERTE.keys()))
-
-co2_ernaehrung = ERNAEHRUNGS_WERTE[ernaehrungstyp]
-
-if st.button("CO₂ der Ernährung berechnen"):
-    color = "green" if co2_ernaehrung < 2000 else "red"
-    st.markdown(
-        f"<h4 style='color:{color}'>Dein jährlicher CO₂-Ausstoss durch Ernährung als {ernaehrungstyp} beträgt {ERNAEHRUNGS_WERTE[ernaehrungstyp]} kg CO₂.</h4>",
-        unsafe_allow_html=True)
-
-if ernaehrungstyp == "Fleischesser":
-    st.info("🍽️ Tipp: Eine Reduktion von Fleischprodukten reduziert deinen CO₂-Ausstoss um bis zu 25%!")
-
-st.divider()
 
 
 
