@@ -33,3 +33,28 @@ Log for:C:/Users/sarac/OneDrive - ZHAW/School/2. Sem FS25/Informatik 2/BMLD-Inf2
 2025-03-11T16:10:33+00:00 | pages/Co2-FUssabdruck Daten | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1741709423 | 67d0606f1efae | 0 | 8399512604oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 0 | 1741709417 | a7d4105e-0340-44fa-83e8-71c28ff3736a | 
 #=#=#=# Syncrun finished 2025-03-11T16:10:37Z (last step: 708 msec , total: 1248 msec) 
 #=#=#=# Syncrun started 2025-03-11T16:10:39Z
+#=#=#=#=# Propagation starts 2025-03-11T16:10:39Z (last step: 459 msec , total: 459 msec) 
+#=#=#=# Syncrun finished 2025-03-11T16:10:39Z (last step: 14 msec , total: 473 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:10:46Z
+#=#=#=#=# Propagation starts 2025-03-11T16:10:46Z (last step: 302 msec , total: 302 msec) 
+#=#=#=# Syncrun finished 2025-03-11T16:10:46Z (last step: 4 msec , total: 307 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:11:25Z
+#=#=#=#=# Propagation starts 2025-03-11T16:11:26Z (last step: 278 msec , total: 278 msec) 
+2025-03-11T16:11:22+00:00 | pages/CO2 Fussabdruck Daten | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1741709477 | 19cf4f3be994b12d389be1ae705fa9b7 | 0 | 8399515004oc641cdd42e0 | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 9ca5e574-7b7b-410a-a42a-98e876649db5 | 
+#=#=#=# Syncrun finished 2025-03-11T16:11:26Z (last step: 814 msec , total: 1093 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:11:45Z
+#=#=#=#=# Propagation starts 2025-03-11T16:11:46Z (last step: 419 msec , total: 419 msec) 
+#=#=#=# Syncrun finished 2025-03-11T16:11:46Z (last step: 8 msec , total: 427 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:15:15Z
+#=#=#=#=# Propagation starts 2025-03-11T16:15:16Z (last step: 203 msec , total: 203 msec) 
+2025-03-11T16:15:12+00:00 | pages/CO2 Fussabdruck Grafik | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1741709711 | 972a55b7970ca8c8bda675dfad32d064 | 0 | 8399527954oc641cdd42e0 | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 9c05c38f-62cd-4c69-b8c2-3df3f311c27c | 
+#=#=#=# Syncrun finished 2025-03-11T16:15:16Z (last step: 697 msec , total: 900 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:15:45Z
+#=#=#=#=# Propagation starts 2025-03-11T16:15:46Z (last step: 460 msec , total: 460 msec) 
+#=#=#=# Syncrun finished 2025-03-11T16:15:46Z (last step: 5 msec , total: 466 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:18:45Z
+#=#=#=#=# Propagation starts 2025-03-11T16:18:45Z (last step: 293 msec , total: 293 msec) 
+#=#=#=# Syncrun finished 2025-03-11T16:18:45Z (last step: 13 msec , total: 306 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:19:47Z
+#=#=#=#=# Propagation starts 2025-03-11T16:19:47Z (last step: 313 msec , total: 313 msec) 
+#=#=#=# Syncrun finished 2025-03-11T16:19:47Z (last step: 13 msec , total: 327 msec) 
