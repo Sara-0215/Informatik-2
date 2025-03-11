@@ -58,3 +58,12 @@ Log for:C:/Users/sarac/OneDrive - ZHAW/School/2. Sem FS25/Informatik 2/BMLD-Inf2
 #=#=#=# Syncrun started 2025-03-11T16:19:47Z
 #=#=#=#=# Propagation starts 2025-03-11T16:19:47Z (last step: 313 msec , total: 313 msec) 
 #=#=#=# Syncrun finished 2025-03-11T16:19:47Z (last step: 13 msec , total: 327 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:23:36Z
+#=#=#=#=# Propagation starts 2025-03-11T16:23:36Z (last step: 212 msec , total: 212 msec) 
+2025-03-11T16:23:32+00:00 | pages/CO2 Fussabdruck Daten | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741710209 | 503539117c0bc15cac61b29457728085 | 684 | 8399515004oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 0 | 1741709477 | 19ac1f9d-e4da-4b00-8bbf-0501c5b3b702 | 
+2025-03-11T16:23:33+00:00 | pages/CO2 Fussabdruck Grafik | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741710209 | bb7871103b5da85cff2f11bd01707d80 | 681 | 8399527954oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 0 | 1741709711 | 59a5d745-ccf1-44ba-89b8-1be8b5788f1f | 
+2025-03-11T16:23:33+00:00 | pages/CO2-Fussabdruck rechner.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741710214 | 28455a7904cd9bf0a33f7f4ecb03d3e6 | 3454 | 8399505849oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 2918 | 1741189139 | fe648e56-1620-48a2-b39d-54c2ec985ea2 | 
+#=#=#=# Syncrun finished 2025-03-11T16:23:37Z (last step: 752 msec , total: 964 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:23:45Z
+#=#=#=#=# Propagation starts 2025-03-11T16:23:46Z (last step: 368 msec , total: 368 msec) 
+#=#=#=# Syncrun finished 2025-03-11T16:23:46Z (last step: 7 msec , total: 375 msec) 
