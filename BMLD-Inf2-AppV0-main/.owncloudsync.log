@@ -89,3 +89,6 @@ Log for:C:/Users/sarac/OneDrive - ZHAW/School/2. Sem FS25/Informatik 2/BMLD-Inf2
 2025-03-11T16:38:23+00:00 | pages/CO2 Fussabdruck Daten | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1741710209 | 503539117c0bc15cac61b29457728085 | 684 | 8399515004oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 684 | 1741710209 | 629dd905-ec62-44f9-a6f3-70d43683eb3e | 
 2025-03-11T16:38:23+00:00 | pages/CO2 Fussabdruck Daten.py | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1741711101 | c1ccbc1170cf099057fe3c8aa3ff653a | 684 | 8399646574oc641cdd42e0 | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 760dee55-637a-45d3-843b-6bc66d49f675 | 
 #=#=#=# Syncrun finished 2025-03-11T16:38:27Z (last step: 954 msec , total: 1347 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:38:46Z
+#=#=#=#=# Propagation starts 2025-03-11T16:38:46Z (last step: 411 msec , total: 411 msec) 
+#=#=#=# Syncrun finished 2025-03-11T16:38:46Z (last step: 7 msec , total: 419 msec) 
