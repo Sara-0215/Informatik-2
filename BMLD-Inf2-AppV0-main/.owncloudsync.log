@@ -1396,3 +1396,20 @@ Log for:C:/Users/sarac/OneDrive - ZHAW/School/2. Sem FS25/Informatik 2/BMLD-Inf2
 #=#=#=#=# Propagation starts 2025-03-13T14:46:16Z (last step: 360 msec , total: 360 msec) 
 2025-03-13T14:46:15+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741877171 | f982fbdf71c9b79b9db45b7b3eecd902 | 916 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 933 | 1741877070 | d934852f-efe0-4cdb-a483-ce213209e0f9 | 
 #=#=#=# Syncrun finished 2025-03-13T14:46:17Z (last step: 1017 msec , total: 1378 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:47:01Z
+#=#=#=#=# Propagation starts 2025-03-13T14:47:01Z (last step: 199 msec , total: 199 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:47:01Z (last step: 7 msec , total: 206 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:47:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:47:16Z (last step: 408 msec , total: 408 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:47:16Z (last step: 3 msec , total: 412 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:48:02Z
+#=#=#=#=# Propagation starts 2025-03-13T14:48:03Z (last step: 307 msec , total: 307 msec) 
+2025-03-13T14:48:02+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741877280 | df444b75d8eea1da70799cee3ed0ef68 | 917 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 916 | 1741877171 | 74cd2539-bf05-422e-a503-1bf93fc7e243 | 
+#=#=#=# Syncrun finished 2025-03-13T14:48:04Z (last step: 916 msec , total: 1224 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:48:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:48:17Z (last step: 304 msec , total: 304 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:48:17Z (last step: 4 msec , total: 308 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:48:36Z
+#=#=#=#=# Propagation starts 2025-03-13T14:48:36Z (last step: 191 msec , total: 191 msec) 
+2025-03-13T14:48:35+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741877309 | 47c5c5bcc90ebdd4f3ea9ac86b974914 | 917 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 917 | 1741877280 | 49b3c9c2-9728-4860-b608-e92887640125 | 
+#=#=#=# Syncrun finished 2025-03-13T14:48:37Z (last step: 614 msec , total: 806 msec) 
