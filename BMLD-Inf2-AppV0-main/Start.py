@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+from utils.data_manager import DataManager
 
-# Assuming DataManager is defined in a module named data_manager_module
-from .data_manager_module import DataManager
+
+#from utils.data_manager import DataManager
 
 st.title("Meine erste Streamlit App")
 
@@ -19,7 +20,7 @@ Diese App ist das leere Gerüst für die App-Entwicklung im Modul Informatik 2
 
 """
 # initialize the data manager
-data_manager = DataManager(fs_protocol='webdav', fs_root_folder="App")  # switch drive 
+data_manager = DataManager(fs_protocol='webdav', fs_root_folder="BMLD-Inf-AppV0-main")  # switch drive 
 
 # load the data from the persistent storage into the session state
 data_manager.load_app_data(
