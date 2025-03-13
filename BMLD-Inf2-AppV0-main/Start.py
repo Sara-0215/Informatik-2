@@ -20,7 +20,7 @@ Diese App ist das leere Gerüst für die App-Entwicklung im Modul Informatik 2
 
 """
 # initialize the data manager
-data_manager = DataManager(fs_protocol='webdav', fs_root_folder="BMLD-Inf-AppV0-main")  # switch drive 
+data_manager = DataManager(fs_protocol='webdav', fs_root_folder="App")  # switch drive 
 
 # load the data from the persistent storage into the session state
 data_manager.load_app_data(
