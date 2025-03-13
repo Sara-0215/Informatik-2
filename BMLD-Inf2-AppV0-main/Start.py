@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+
+# Assuming DataManager is defined in a module named data_manager_module
+from .data_manager_module import DataManager
+
 st.title("Meine erste Streamlit App")
 
 # !! WICHTIG: Eure Emails müssen in der App erscheinen!!
