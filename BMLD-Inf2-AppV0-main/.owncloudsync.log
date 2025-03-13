@@ -1383,3 +1383,16 @@ Log for:C:/Users/sarac/OneDrive - ZHAW/School/2. Sem FS25/Informatik 2/BMLD-Inf2
 #=#=#=#=# Propagation starts 2025-03-13T14:44:36Z (last step: 222 msec , total: 222 msec) 
 2025-03-13T14:44:35+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741877070 | 52aaade1caaaaaaeaccf561e89c3bf06 | 933 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 916 | 1741876993 | 4df2ea70-e895-4417-b51f-aaab3b8d37cd | 
 #=#=#=# Syncrun finished 2025-03-13T14:44:37Z (last step: 732 msec , total: 954 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:44:57Z
+#=#=#=#=# Propagation starts 2025-03-13T14:44:57Z (last step: 212 msec , total: 212 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:44:57Z (last step: 2 msec , total: 215 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:45:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:45:16Z (last step: 288 msec , total: 288 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:45:16Z (last step: 3 msec , total: 292 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:45:58Z
+#=#=#=#=# Propagation starts 2025-03-13T14:45:59Z (last step: 427 msec , total: 427 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:45:59Z (last step: 4 msec , total: 431 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:46:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:46:16Z (last step: 360 msec , total: 360 msec) 
+2025-03-13T14:46:15+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741877171 | f982fbdf71c9b79b9db45b7b3eecd902 | 916 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 933 | 1741877070 | d934852f-efe0-4cdb-a483-ce213209e0f9 | 
+#=#=#=# Syncrun finished 2025-03-13T14:46:17Z (last step: 1017 msec , total: 1378 msec) 
