@@ -64,6 +64,19 @@ if st.button("Gesamt CO₂ berechnen"):
     gesamt_ergebnis = berechne_gesamt_co2(km_pro_tag_mehrere)
     st.success(f"Dein jährlicher CO₂-Ausstoss mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
 
+    # Daten speichern
+    daten = []
+    for t, km in km_pro_tag_mehrere.items():
+        daten.append({
+            "Transportmittel": t,
+            "Kilometer pro Tag": km,
+            "Jährlicher CO₂-Ausstoß (kg)": round((CO2_WERTE[t] * km * 365) / 1000, 2)
+        })
+
+    df = pd.DataFrame(daten)
+    st.write("### Deine eingegebenen Daten")
+    st.dataframe(df)
+
 st.divider()  # Trennlinie
 
 import pandas as pd
