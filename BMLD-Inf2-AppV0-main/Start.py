@@ -14,4 +14,14 @@ Diese App wurde von folgenden Personen entwickelt:
 Diese App ist das leere Gerüst für die App-Entwicklung im Modul Informatik 2 (BMLD/ZHAW)
 
 """
+# initialize the data manager
+data_manager = DataManager(fs_protocol='webdav', fs_root_folder="App")  # switch drive 
+
+# load the data from the persistent storage into the session state
+data_manager.load_app_data(
+    session_state_key='data_df', 
+    file_name='data.csv', 
+    initial_value = pd.DataFrame(), 
+    parse_dates = ['timestamp']
+    )
 
