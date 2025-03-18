@@ -71,7 +71,6 @@ data_manager.load_app_data(
     parse_dates=["timestamp"]
 )
 
-
 if st.button("Gesamt CO₂ berechnen"):
     gesamt_ergebnis = berechne_gesamt_co2(km_pro_tag_mehrere)
     st.success(f"Dein jährlicher CO₂-Ausstoss mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")

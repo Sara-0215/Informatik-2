@@ -7,7 +7,7 @@ data_manager = DataManager(fs_protocol='webdav', fs_root_folder="App")  # switch
 
 # load the data from the persistent storage into the session state
 data_manager.load_app_data(
-    session_state_key='co2_df', 
+    session_state_key='co2_data', 
     file_name='co2_data.csv', 
     initial_value = pd.DataFrame(), 
     parse_dates = ['timestamp']
