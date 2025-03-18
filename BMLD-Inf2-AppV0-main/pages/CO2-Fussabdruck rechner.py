@@ -9,15 +9,6 @@ import pandas as pd
 from functions.co2_calculator import calculate_co2
 from utils.data_manager import DataManager
 
-data_manager = DataManager(fs_protocol="webdav", fs_root_folder="App")
-
-data_manager.load_user_data(
-    session_state_key="data_df",
-    file_name="data.csv",
-    initial_value=pd.DataFrame(),
-    parse_dates=["timestamp"]
-)
-
 # Titel der Unterseite
 st.title("🌍 CO₂-Fussabdruck Rechner")
 
@@ -84,7 +75,7 @@ if st.button("Gesamt CO₂ berechnen"):
 
 
     for t, km in km_pro_tag_mehrere.items():
-        data_manager.append_record(
+        DataManager.append_record(
             session_state_key="data.df",
             record_dict={
             "Transportmittel": t,
@@ -100,7 +91,7 @@ km_pro_tag = st.number_input("Wie viele Kilometer fährst du pro Tag?", min_valu
 if st.button("CO₂ berechnen"):
     ergebnis = calculate_co2(transportmittel, km_pro_tag)
     st.success(f"Dein jährlicher CO₂-Ausstoß beträgt **{ergebnis['Jährlicher CO₂-Ausstoß (kg)']}** kg CO₂ pro Jahr.")
-    data_manager.append_record(
+    DataManager.append_record(
         session_state_key="data_df",
         record_dict=ergebnis
     )
