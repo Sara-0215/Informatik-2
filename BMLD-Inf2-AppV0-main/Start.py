@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-
 from utils.data_manager import DataManager
 
 # initialize the data manager
