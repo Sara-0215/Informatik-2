@@ -90,6 +90,10 @@ if st.button("CO₂ berechnen", key="co2_button_3"):
         record_dict=ergebnis
     )
 
+# Falls "data.df" nicht existiert, erstelle ein leeres DataFrame
+if "data.df" not in st.session_state:
+    st.session_state["data.df"] = pd.DataFrame()
+
 df = pd.DataFrame(st.session_state["data.df"])
 st.write("### Deine eingegebenen Daten")
 st.dataframe(df)
