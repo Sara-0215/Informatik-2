@@ -22,8 +22,6 @@ CO2_WERTE = {
     "E-Bus": 50,
     "Tram": 30
 }
-# Benutzer-Eingabe
-st.markdown("### 🚗 Einzelne Transportmittel")
 
 # Multi-Transportmittel Berechnung
 st.markdown("### Berechnung für mehrere Transportmittel")
