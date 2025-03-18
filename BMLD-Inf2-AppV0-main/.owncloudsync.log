@@ -89,3 +89,1352 @@ Log for:C:/Users/sarac/OneDrive - ZHAW/School/2. Sem FS25/Informatik 2/BMLD-Inf2
 2025-03-11T16:38:23+00:00 | pages/CO2 Fussabdruck Daten | CSyncEnums::CSYNC_INSTRUCTION_REMOVE | OCC::SyncFileItem::Up | | 1741710209 | 503539117c0bc15cac61b29457728085 | 684 | 8399515004oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 684 | 1741710209 | 629dd905-ec62-44f9-a6f3-70d43683eb3e | 
 2025-03-11T16:38:23+00:00 | pages/CO2 Fussabdruck Daten.py | CSyncEnums::CSYNC_INSTRUCTION_NEW | OCC::SyncFileItem::Up | | 1741711101 | c1ccbc1170cf099057fe3c8aa3ff653a | 684 | 8399646574oc641cdd42e0 | OCC::SyncFileItem::Success |  | 201 | 0 | 0 | 760dee55-637a-45d3-843b-6bc66d49f675 | 
 #=#=#=# Syncrun finished 2025-03-11T16:38:27Z (last step: 954 msec , total: 1347 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:38:46Z
+#=#=#=#=# Propagation starts 2025-03-11T16:38:46Z (last step: 411 msec , total: 411 msec) 
+#=#=#=# Syncrun finished 2025-03-11T16:38:46Z (last step: 7 msec , total: 419 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:49:45Z
+#=#=#=#=# Propagation starts 2025-03-11T16:49:45Z (last step: 206 msec , total: 206 msec) 
+#=#=#=# Syncrun finished 2025-03-11T16:49:45Z (last step: 4 msec , total: 210 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:50:47Z
+#=#=#=#=# Propagation starts 2025-03-11T16:50:47Z (last step: 275 msec , total: 275 msec) 
+#=#=#=# Syncrun finished 2025-03-11T16:50:47Z (last step: 4 msec , total: 280 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:51:46Z
+#=#=#=#=# Propagation starts 2025-03-11T16:51:46Z (last step: 219 msec , total: 219 msec) 
+2025-03-11T16:51:43+00:00 | pages/CO2-Fussabdruck rechner.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741711902 | dacfa6a3f7db74d682d6c400e1257ef8 | 3841 | 8399505849oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 3454 | 1741710214 | 3f011745-b7b7-4cd6-bb88-7d63f03ea010 | 
+#=#=#=# Syncrun finished 2025-03-11T16:51:47Z (last step: 592 msec , total: 812 msec) 
+#=#=#=# Syncrun started 2025-03-11T16:52:46Z
+#=#=#=#=# Propagation starts 2025-03-11T16:52:46Z (last step: 512 msec , total: 512 msec) 
+#=#=#=# Syncrun finished 2025-03-11T16:52:46Z (last step: 9 msec , total: 522 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:04:49Z
+#=#=#=#=# Propagation starts 2025-03-11T17:04:49Z (last step: 236 msec , total: 236 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:04:49Z (last step: 3 msec , total: 240 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:06:15Z
+#=#=#=#=# Propagation starts 2025-03-11T17:06:15Z (last step: 172 msec , total: 172 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:06:15Z (last step: 4 msec , total: 176 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:06:17Z
+#=#=#=#=# Propagation starts 2025-03-11T17:06:18Z (last step: 414 msec , total: 414 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:06:18Z (last step: 3 msec , total: 417 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:20:45Z
+#=#=#=#=# Propagation starts 2025-03-11T17:20:45Z (last step: 231 msec , total: 231 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:20:45Z (last step: 4 msec , total: 235 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:21:47Z
+#=#=#=#=# Propagation starts 2025-03-11T17:21:47Z (last step: 262 msec , total: 262 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:21:47Z (last step: 4 msec , total: 266 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:25:44Z
+#=#=#=#=# Propagation starts 2025-03-11T17:25:45Z (last step: 246 msec , total: 246 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:25:45Z (last step: 2 msec , total: 249 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:26:45Z
+#=#=#=#=# Propagation starts 2025-03-11T17:26:45Z (last step: 266 msec , total: 266 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:26:45Z (last step: 3 msec , total: 270 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:27:47Z
+#=#=#=#=# Propagation starts 2025-03-11T17:27:47Z (last step: 218 msec , total: 218 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:27:47Z (last step: 3 msec , total: 221 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:28:49Z
+#=#=#=#=# Propagation starts 2025-03-11T17:28:49Z (last step: 156 msec , total: 156 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:28:49Z (last step: 4 msec , total: 160 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:29:51Z
+#=#=#=#=# Propagation starts 2025-03-11T17:29:51Z (last step: 214 msec , total: 214 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:29:51Z (last step: 3 msec , total: 218 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:30:53Z
+#=#=#=#=# Propagation starts 2025-03-11T17:30:53Z (last step: 223 msec , total: 223 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:30:53Z (last step: 4 msec , total: 227 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:31:56Z
+#=#=#=#=# Propagation starts 2025-03-11T17:31:57Z (last step: 401 msec , total: 401 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:31:57Z (last step: 4 msec , total: 405 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:32:57Z
+#=#=#=#=# Propagation starts 2025-03-11T17:32:57Z (last step: 339 msec , total: 339 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:32:57Z (last step: 3 msec , total: 343 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:33:59Z
+#=#=#=#=# Propagation starts 2025-03-11T17:33:59Z (last step: 234 msec , total: 234 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:33:59Z (last step: 3 msec , total: 237 msec) 
+#=#=#=# Syncrun started 2025-03-11T17:35:01Z
+#=#=#=#=# Propagation starts 2025-03-11T17:35:01Z (last step: 196 msec , total: 196 msec) 
+#=#=#=# Syncrun finished 2025-03-11T17:35:01Z (last step: 3 msec , total: 199 msec) 
+#=#=#=# Syncrun started 2025-03-11T19:36:51Z
+#=#=#=#=# Propagation starts 2025-03-11T19:36:51Z (last step: 232 msec , total: 232 msec) 
+#=#=#=# Syncrun finished 2025-03-11T19:36:51Z (last step: 3 msec , total: 236 msec) 
+#=#=#=# Syncrun started 2025-03-11T19:37:51Z
+#=#=#=#=# Propagation starts 2025-03-11T19:37:51Z (last step: 285 msec , total: 285 msec) 
+#=#=#=# Syncrun finished 2025-03-11T19:37:51Z (last step: 4 msec , total: 289 msec) 
+#=#=#=# Syncrun started 2025-03-11T19:38:53Z
+#=#=#=#=# Propagation starts 2025-03-11T19:38:54Z (last step: 267 msec , total: 267 msec) 
+#=#=#=# Syncrun finished 2025-03-11T19:38:54Z (last step: 11 msec , total: 278 msec) 
+#=#=#=# Syncrun started 2025-03-11T19:53:21Z
+#=#=#=#=# Propagation starts 2025-03-11T19:53:22Z (last step: 226 msec , total: 226 msec) 
+#=#=#=# Syncrun finished 2025-03-11T19:53:22Z (last step: 3 msec , total: 229 msec) 
+#=#=#=# Syncrun started 2025-03-11T19:54:23Z
+#=#=#=#=# Propagation starts 2025-03-11T19:54:23Z (last step: 174 msec , total: 174 msec) 
+#=#=#=# Syncrun finished 2025-03-11T19:54:23Z (last step: 3 msec , total: 178 msec) 
+#=#=#=# Syncrun started 2025-03-11T19:55:26Z
+#=#=#=#=# Propagation starts 2025-03-11T19:55:26Z (last step: 235 msec , total: 235 msec) 
+#=#=#=# Syncrun finished 2025-03-11T19:55:26Z (last step: 7 msec , total: 243 msec) 
+#=#=#=# Syncrun started 2025-03-11T19:56:29Z
+#=#=#=#=# Propagation starts 2025-03-11T19:56:29Z (last step: 295 msec , total: 295 msec) 
+#=#=#=# Syncrun finished 2025-03-11T19:56:29Z (last step: 3 msec , total: 298 msec) 
+#=#=#=# Syncrun started 2025-03-11T19:57:29Z
+#=#=#=#=# Propagation starts 2025-03-11T19:57:30Z (last step: 207 msec , total: 207 msec) 
+#=#=#=# Syncrun finished 2025-03-11T19:57:30Z (last step: 3 msec , total: 211 msec) 
+#=#=#=# Syncrun started 2025-03-11T19:58:35Z
+#=#=#=#=# Propagation starts 2025-03-11T19:58:35Z (last step: 607 msec , total: 607 msec) 
+#=#=#=# Syncrun finished 2025-03-11T19:58:35Z (last step: 3 msec , total: 611 msec) 
+#=#=#=# Syncrun started 2025-03-11T19:59:33Z
+#=#=#=#=# Propagation starts 2025-03-11T19:59:33Z (last step: 220 msec , total: 220 msec) 
+#=#=#=# Syncrun finished 2025-03-11T19:59:33Z (last step: 3 msec , total: 223 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:00:35Z
+#=#=#=#=# Propagation starts 2025-03-11T20:00:36Z (last step: 195 msec , total: 195 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:00:36Z (last step: 4 msec , total: 200 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:01:37Z
+#=#=#=#=# Propagation starts 2025-03-11T20:01:37Z (last step: 233 msec , total: 233 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:01:37Z (last step: 4 msec , total: 238 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:02:39Z
+#=#=#=#=# Propagation starts 2025-03-11T20:02:39Z (last step: 257 msec , total: 257 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:02:39Z (last step: 3 msec , total: 260 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:03:41Z
+#=#=#=#=# Propagation starts 2025-03-11T20:03:41Z (last step: 209 msec , total: 209 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:03:41Z (last step: 4 msec , total: 214 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:04:43Z
+#=#=#=#=# Propagation starts 2025-03-11T20:04:43Z (last step: 156 msec , total: 156 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:04:43Z (last step: 6 msec , total: 162 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:05:45Z
+#=#=#=#=# Propagation starts 2025-03-11T20:05:45Z (last step: 228 msec , total: 228 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:05:45Z (last step: 3 msec , total: 232 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:06:47Z
+#=#=#=#=# Propagation starts 2025-03-11T20:06:47Z (last step: 227 msec , total: 227 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:06:47Z (last step: 4 msec , total: 231 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:07:50Z
+#=#=#=#=# Propagation starts 2025-03-11T20:07:50Z (last step: 225 msec , total: 225 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:07:50Z (last step: 3 msec , total: 228 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:08:51Z
+#=#=#=#=# Propagation starts 2025-03-11T20:08:52Z (last step: 228 msec , total: 228 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:08:52Z (last step: 4 msec , total: 233 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:09:51Z
+#=#=#=#=# Propagation starts 2025-03-11T20:09:52Z (last step: 218 msec , total: 218 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:09:52Z (last step: 4 msec , total: 223 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:09:54Z
+#=#=#=#=# Propagation starts 2025-03-11T20:09:54Z (last step: 410 msec , total: 410 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:09:54Z (last step: 3 msec , total: 414 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:24:21Z
+#=#=#=#=# Propagation starts 2025-03-11T20:24:21Z (last step: 190 msec , total: 190 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:24:21Z (last step: 5 msec , total: 195 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:25:23Z
+#=#=#=#=# Propagation starts 2025-03-11T20:25:23Z (last step: 235 msec , total: 235 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:25:23Z (last step: 3 msec , total: 238 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:26:25Z
+#=#=#=#=# Propagation starts 2025-03-11T20:26:26Z (last step: 195 msec , total: 195 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:26:26Z (last step: 3 msec , total: 199 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:27:27Z
+#=#=#=#=# Propagation starts 2025-03-11T20:27:28Z (last step: 163 msec , total: 163 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:27:28Z (last step: 3 msec , total: 167 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:28:29Z
+#=#=#=#=# Propagation starts 2025-03-11T20:28:29Z (last step: 230 msec , total: 230 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:28:29Z (last step: 4 msec , total: 235 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:29:31Z
+#=#=#=#=# Propagation starts 2025-03-11T20:29:32Z (last step: 204 msec , total: 204 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:29:32Z (last step: 3 msec , total: 207 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:30:33Z
+#=#=#=#=# Propagation starts 2025-03-11T20:30:33Z (last step: 254 msec , total: 254 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:30:33Z (last step: 3 msec , total: 258 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:31:35Z
+#=#=#=#=# Propagation starts 2025-03-11T20:31:35Z (last step: 197 msec , total: 197 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:31:35Z (last step: 3 msec , total: 201 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:32:37Z
+#=#=#=#=# Propagation starts 2025-03-11T20:32:37Z (last step: 241 msec , total: 241 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:32:37Z (last step: 4 msec , total: 245 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:33:39Z
+#=#=#=#=# Propagation starts 2025-03-11T20:33:39Z (last step: 218 msec , total: 218 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:33:39Z (last step: 4 msec , total: 222 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:34:41Z
+#=#=#=#=# Propagation starts 2025-03-11T20:34:41Z (last step: 238 msec , total: 238 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:34:41Z (last step: 3 msec , total: 242 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:35:43Z
+#=#=#=#=# Propagation starts 2025-03-11T20:35:43Z (last step: 164 msec , total: 164 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:35:43Z (last step: 3 msec , total: 168 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:36:45Z
+#=#=#=#=# Propagation starts 2025-03-11T20:36:45Z (last step: 198 msec , total: 198 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:36:45Z (last step: 3 msec , total: 201 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:36:54Z
+#=#=#=#=# Propagation starts 2025-03-11T20:36:54Z (last step: 165 msec , total: 165 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:36:54Z (last step: 3 msec , total: 169 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:37:47Z
+#=#=#=#=# Propagation starts 2025-03-11T20:37:47Z (last step: 231 msec , total: 231 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:37:47Z (last step: 4 msec , total: 235 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:38:49Z
+#=#=#=#=# Propagation starts 2025-03-11T20:38:49Z (last step: 250 msec , total: 250 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:38:49Z (last step: 3 msec , total: 253 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:39:51Z
+#=#=#=#=# Propagation starts 2025-03-11T20:39:51Z (last step: 221 msec , total: 221 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:39:51Z (last step: 3 msec , total: 224 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:40:53Z
+#=#=#=#=# Propagation starts 2025-03-11T20:40:53Z (last step: 176 msec , total: 176 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:40:53Z (last step: 3 msec , total: 180 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:55:21Z
+#=#=#=#=# Propagation starts 2025-03-11T20:55:21Z (last step: 227 msec , total: 227 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:55:21Z (last step: 3 msec , total: 231 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:56:23Z
+#=#=#=#=# Propagation starts 2025-03-11T20:56:24Z (last step: 304 msec , total: 304 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:56:24Z (last step: 3 msec , total: 307 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:57:25Z
+#=#=#=#=# Propagation starts 2025-03-11T20:57:25Z (last step: 210 msec , total: 210 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:57:25Z (last step: 4 msec , total: 214 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:58:27Z
+#=#=#=#=# Propagation starts 2025-03-11T20:58:27Z (last step: 215 msec , total: 215 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:58:27Z (last step: 3 msec , total: 218 msec) 
+#=#=#=# Syncrun started 2025-03-11T20:59:29Z
+#=#=#=#=# Propagation starts 2025-03-11T20:59:29Z (last step: 165 msec , total: 165 msec) 
+#=#=#=# Syncrun finished 2025-03-11T20:59:29Z (last step: 3 msec , total: 169 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:00:31Z
+#=#=#=#=# Propagation starts 2025-03-11T21:00:31Z (last step: 177 msec , total: 177 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:00:31Z (last step: 3 msec , total: 181 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:01:33Z
+#=#=#=#=# Propagation starts 2025-03-11T21:01:33Z (last step: 222 msec , total: 222 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:01:33Z (last step: 3 msec , total: 226 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:02:35Z
+#=#=#=#=# Propagation starts 2025-03-11T21:02:36Z (last step: 355 msec , total: 355 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:02:36Z (last step: 3 msec , total: 359 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:03:38Z
+#=#=#=#=# Propagation starts 2025-03-11T21:03:38Z (last step: 182 msec , total: 182 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:03:38Z (last step: 3 msec , total: 185 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:04:39Z
+#=#=#=#=# Propagation starts 2025-03-11T21:04:40Z (last step: 229 msec , total: 229 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:04:40Z (last step: 4 msec , total: 233 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:05:41Z
+#=#=#=#=# Propagation starts 2025-03-11T21:05:41Z (last step: 209 msec , total: 209 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:05:41Z (last step: 5 msec , total: 215 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:06:43Z
+#=#=#=#=# Propagation starts 2025-03-11T21:06:43Z (last step: 213 msec , total: 213 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:06:43Z (last step: 5 msec , total: 218 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:07:45Z
+#=#=#=#=# Propagation starts 2025-03-11T21:07:45Z (last step: 241 msec , total: 241 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:07:45Z (last step: 4 msec , total: 246 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:08:47Z
+#=#=#=#=# Propagation starts 2025-03-11T21:08:47Z (last step: 193 msec , total: 193 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:08:47Z (last step: 5 msec , total: 198 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:09:49Z
+#=#=#=#=# Propagation starts 2025-03-11T21:09:50Z (last step: 219 msec , total: 219 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:09:50Z (last step: 3 msec , total: 223 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:10:51Z
+#=#=#=#=# Propagation starts 2025-03-11T21:10:51Z (last step: 165 msec , total: 165 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:10:51Z (last step: 5 msec , total: 171 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:11:51Z
+#=#=#=#=# Propagation starts 2025-03-11T21:11:51Z (last step: 176 msec , total: 176 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:11:52Z (last step: 7 msec , total: 184 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:11:54Z
+#=#=#=#=# Propagation starts 2025-03-11T21:11:54Z (last step: 249 msec , total: 249 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:11:54Z (last step: 33 msec , total: 282 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:26:21Z
+#=#=#=#=# Propagation starts 2025-03-11T21:26:21Z (last step: 163 msec , total: 163 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:26:21Z (last step: 5 msec , total: 169 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:27:23Z
+#=#=#=#=# Propagation starts 2025-03-11T21:27:23Z (last step: 221 msec , total: 221 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:27:23Z (last step: 16 msec , total: 238 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:28:25Z
+#=#=#=#=# Propagation starts 2025-03-11T21:28:25Z (last step: 185 msec , total: 185 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:28:25Z (last step: 7 msec , total: 193 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:29:27Z
+#=#=#=#=# Propagation starts 2025-03-11T21:29:27Z (last step: 162 msec , total: 162 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:29:27Z (last step: 5 msec , total: 168 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:30:29Z
+#=#=#=#=# Propagation starts 2025-03-11T21:30:29Z (last step: 175 msec , total: 175 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:30:29Z (last step: 5 msec , total: 180 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:31:31Z
+#=#=#=#=# Propagation starts 2025-03-11T21:31:31Z (last step: 166 msec , total: 166 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:31:31Z (last step: 4 msec , total: 171 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:32:33Z
+#=#=#=#=# Propagation starts 2025-03-11T21:32:34Z (last step: 145 msec , total: 145 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:32:34Z (last step: 4 msec , total: 150 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:33:35Z
+#=#=#=#=# Propagation starts 2025-03-11T21:33:35Z (last step: 170 msec , total: 170 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:33:35Z (last step: 5 msec , total: 176 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:34:37Z
+#=#=#=#=# Propagation starts 2025-03-11T21:34:37Z (last step: 148 msec , total: 148 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:34:37Z (last step: 5 msec , total: 153 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:35:39Z
+#=#=#=#=# Propagation starts 2025-03-11T21:35:39Z (last step: 168 msec , total: 168 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:35:39Z (last step: 5 msec , total: 173 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:36:42Z
+#=#=#=#=# Propagation starts 2025-03-11T21:36:42Z (last step: 233 msec , total: 233 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:36:42Z (last step: 4 msec , total: 238 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:36:54Z
+#=#=#=#=# Propagation starts 2025-03-11T21:36:55Z (last step: 197 msec , total: 197 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:36:55Z (last step: 5 msec , total: 203 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:37:43Z
+#=#=#=#=# Propagation starts 2025-03-11T21:37:43Z (last step: 206 msec , total: 206 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:37:43Z (last step: 4 msec , total: 211 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:38:45Z
+#=#=#=#=# Propagation starts 2025-03-11T21:38:45Z (last step: 231 msec , total: 231 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:38:45Z (last step: 4 msec , total: 235 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:39:47Z
+#=#=#=#=# Propagation starts 2025-03-11T21:39:47Z (last step: 253 msec , total: 253 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:39:47Z (last step: 6 msec , total: 260 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:40:49Z
+#=#=#=#=# Propagation starts 2025-03-11T21:40:49Z (last step: 165 msec , total: 165 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:40:49Z (last step: 5 msec , total: 171 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:41:51Z
+#=#=#=#=# Propagation starts 2025-03-11T21:41:51Z (last step: 159 msec , total: 159 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:41:51Z (last step: 3 msec , total: 162 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:42:53Z
+#=#=#=#=# Propagation starts 2025-03-11T21:42:53Z (last step: 202 msec , total: 202 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:42:53Z (last step: 4 msec , total: 206 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:57:21Z
+#=#=#=#=# Propagation starts 2025-03-11T21:57:21Z (last step: 169 msec , total: 169 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:57:21Z (last step: 4 msec , total: 174 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:58:23Z
+#=#=#=#=# Propagation starts 2025-03-11T21:58:23Z (last step: 160 msec , total: 160 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:58:23Z (last step: 3 msec , total: 164 msec) 
+#=#=#=# Syncrun started 2025-03-11T21:59:25Z
+#=#=#=#=# Propagation starts 2025-03-11T21:59:25Z (last step: 151 msec , total: 151 msec) 
+#=#=#=# Syncrun finished 2025-03-11T21:59:25Z (last step: 3 msec , total: 155 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:00:27Z
+#=#=#=#=# Propagation starts 2025-03-11T22:00:27Z (last step: 159 msec , total: 159 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:00:27Z (last step: 4 msec , total: 163 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:01:29Z
+#=#=#=#=# Propagation starts 2025-03-11T22:01:29Z (last step: 214 msec , total: 214 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:01:29Z (last step: 6 msec , total: 221 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:02:31Z
+#=#=#=#=# Propagation starts 2025-03-11T22:02:31Z (last step: 148 msec , total: 148 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:02:31Z (last step: 4 msec , total: 153 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:03:33Z
+#=#=#=#=# Propagation starts 2025-03-11T22:03:33Z (last step: 172 msec , total: 172 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:03:33Z (last step: 7 msec , total: 179 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:04:35Z
+#=#=#=#=# Propagation starts 2025-03-11T22:04:35Z (last step: 206 msec , total: 206 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:04:35Z (last step: 6 msec , total: 212 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:05:37Z
+#=#=#=#=# Propagation starts 2025-03-11T22:05:37Z (last step: 164 msec , total: 164 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:05:37Z (last step: 5 msec , total: 169 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:06:39Z
+#=#=#=#=# Propagation starts 2025-03-11T22:06:39Z (last step: 228 msec , total: 228 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:06:39Z (last step: 6 msec , total: 234 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:07:41Z
+#=#=#=#=# Propagation starts 2025-03-11T22:07:41Z (last step: 174 msec , total: 174 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:07:41Z (last step: 6 msec , total: 181 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:08:43Z
+#=#=#=#=# Propagation starts 2025-03-11T22:08:43Z (last step: 177 msec , total: 177 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:08:43Z (last step: 3 msec , total: 180 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:09:45Z
+#=#=#=#=# Propagation starts 2025-03-11T22:09:45Z (last step: 205 msec , total: 205 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:09:45Z (last step: 4 msec , total: 209 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:10:47Z
+#=#=#=#=# Propagation starts 2025-03-11T22:10:47Z (last step: 180 msec , total: 180 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:10:47Z (last step: 3 msec , total: 184 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:11:50Z
+#=#=#=#=# Propagation starts 2025-03-11T22:11:50Z (last step: 284 msec , total: 284 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:11:50Z (last step: 4 msec , total: 289 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:12:51Z
+#=#=#=#=# Propagation starts 2025-03-11T22:12:52Z (last step: 174 msec , total: 174 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:12:52Z (last step: 5 msec , total: 180 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:13:51Z
+#=#=#=#=# Propagation starts 2025-03-11T22:13:52Z (last step: 188 msec , total: 188 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:13:52Z (last step: 5 msec , total: 194 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:13:53Z
+#=#=#=#=# Propagation starts 2025-03-11T22:13:54Z (last step: 215 msec , total: 215 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:13:54Z (last step: 4 msec , total: 220 msec) 
+#=#=#=# Syncrun started 2025-03-11T22:28:21Z
+#=#=#=#=# Propagation starts 2025-03-11T22:28:21Z (last step: 161 msec , total: 161 msec) 
+#=#=#=# Syncrun finished 2025-03-11T22:28:21Z (last step: 6 msec , total: 168 msec) 
+#=#=#=# Syncrun started 2025-03-12T08:43:13Z
+#=#=#=#=# Propagation starts 2025-03-12T08:43:13Z (last step: 515 msec , total: 515 msec) 
+#=#=#=# Syncrun finished 2025-03-12T08:43:13Z (last step: 3 msec , total: 519 msec) 
+#=#=#=# Syncrun started 2025-03-12T08:59:40Z
+#=#=#=#=# Propagation starts 2025-03-12T08:59:40Z (last step: 266 msec , total: 266 msec) 
+#=#=#=# Syncrun finished 2025-03-12T08:59:40Z (last step: 4 msec , total: 271 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:00:42Z
+#=#=#=# Syncrun started 2025-03-12T09:02:21Z
+#=#=#=#=# Propagation starts 2025-03-12T09:02:23Z (last step: 1750 msec , total: 1750 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:02:23Z (last step: 3 msec , total: 1753 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:18:52Z
+#=#=#=#=# Propagation starts 2025-03-12T09:18:53Z (last step: 283 msec , total: 283 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:18:53Z (last step: 5 msec , total: 288 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:19:55Z
+#=#=#=#=# Propagation starts 2025-03-12T09:19:55Z (last step: 298 msec , total: 298 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:19:55Z (last step: 6 msec , total: 304 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:20:57Z
+#=#=#=#=# Propagation starts 2025-03-12T09:20:57Z (last step: 201 msec , total: 201 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:20:57Z (last step: 5 msec , total: 207 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:21:59Z
+#=#=#=#=# Propagation starts 2025-03-12T09:21:59Z (last step: 302 msec , total: 302 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:21:59Z (last step: 5 msec , total: 307 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:23:01Z
+#=#=#=#=# Propagation starts 2025-03-12T09:23:01Z (last step: 285 msec , total: 285 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:23:01Z (last step: 5 msec , total: 290 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:24:03Z
+#=#=#=#=# Propagation starts 2025-03-12T09:24:03Z (last step: 301 msec , total: 301 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:24:03Z (last step: 4 msec , total: 306 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:25:05Z
+#=#=#=#=# Propagation starts 2025-03-12T09:25:05Z (last step: 220 msec , total: 220 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:25:05Z (last step: 5 msec , total: 225 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:27:32Z
+#=#=#=#=# Propagation starts 2025-03-12T09:27:32Z (last step: 334 msec , total: 334 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:27:32Z (last step: 2 msec , total: 336 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:36:12Z
+#=#=#=#=# Propagation starts 2025-03-12T09:36:13Z (last step: 304 msec , total: 304 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:36:13Z (last step: 3 msec , total: 308 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:37:15Z
+#=#=#=#=# Propagation starts 2025-03-12T09:37:15Z (last step: 215 msec , total: 215 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:37:15Z (last step: 3 msec , total: 218 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:48:31Z
+#=#=#=#=# Propagation starts 2025-03-12T09:48:31Z (last step: 224 msec , total: 224 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:48:31Z (last step: 2 msec , total: 227 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:49:15Z
+#=#=#=#=# Propagation starts 2025-03-12T09:49:15Z (last step: 254 msec , total: 254 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:49:15Z (last step: 5 msec , total: 259 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:50:20Z
+#=#=#=#=# Propagation starts 2025-03-12T09:50:20Z (last step: 487 msec , total: 487 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:50:20Z (last step: 4 msec , total: 491 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:51:19Z
+#=#=#=#=# Propagation starts 2025-03-12T09:51:20Z (last step: 306 msec , total: 306 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:51:20Z (last step: 5 msec , total: 311 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:52:22Z
+#=#=#=#=# Propagation starts 2025-03-12T09:52:22Z (last step: 403 msec , total: 403 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:52:22Z (last step: 3 msec , total: 407 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:53:23Z
+#=#=#=#=# Propagation starts 2025-03-12T09:53:23Z (last step: 232 msec , total: 232 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:53:23Z (last step: 5 msec , total: 238 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:54:25Z
+#=#=#=#=# Propagation starts 2025-03-12T09:54:25Z (last step: 305 msec , total: 305 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:54:25Z (last step: 3 msec , total: 308 msec) 
+#=#=#=# Syncrun started 2025-03-12T09:54:48Z
+#=#=#=#=# Propagation starts 2025-03-12T09:54:48Z (last step: 233 msec , total: 233 msec) 
+#=#=#=# Syncrun finished 2025-03-12T09:54:48Z (last step: 6 msec , total: 240 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:02:43Z
+#=#=#=#=# Propagation starts 2025-03-12T10:02:43Z (last step: 272 msec , total: 272 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:02:43Z (last step: 6 msec , total: 278 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:03:43Z
+#=#=#=#=# Propagation starts 2025-03-12T10:03:43Z (last step: 244 msec , total: 244 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:03:43Z (last step: 3 msec , total: 247 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:04:45Z
+#=#=#=#=# Propagation starts 2025-03-12T10:04:45Z (last step: 201 msec , total: 201 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:04:45Z (last step: 3 msec , total: 205 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:05:47Z
+#=#=#=#=# Propagation starts 2025-03-12T10:05:47Z (last step: 259 msec , total: 259 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:05:47Z (last step: 5 msec , total: 264 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:06:49Z
+#=#=#=#=# Propagation starts 2025-03-12T10:06:49Z (last step: 275 msec , total: 275 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:06:49Z (last step: 6 msec , total: 281 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:07:51Z
+#=#=#=#=# Propagation starts 2025-03-12T10:07:51Z (last step: 308 msec , total: 308 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:07:51Z (last step: 5 msec , total: 313 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:08:53Z
+#=#=#=#=# Propagation starts 2025-03-12T10:08:54Z (last step: 361 msec , total: 361 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:08:54Z (last step: 4 msec , total: 365 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:09:55Z
+#=#=#=#=# Propagation starts 2025-03-12T10:09:55Z (last step: 290 msec , total: 290 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:09:55Z (last step: 4 msec , total: 294 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:10:57Z
+#=#=#=#=# Propagation starts 2025-03-12T10:10:57Z (last step: 192 msec , total: 192 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:10:57Z (last step: 5 msec , total: 197 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:12:01Z
+#=#=#=#=# Propagation starts 2025-03-12T10:12:01Z (last step: 273 msec , total: 273 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:12:01Z (last step: 6 msec , total: 279 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:13:01Z
+#=#=#=#=# Propagation starts 2025-03-12T10:13:01Z (last step: 300 msec , total: 300 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:13:01Z (last step: 4 msec , total: 305 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:14:03Z
+#=#=#=#=# Propagation starts 2025-03-12T10:14:03Z (last step: 300 msec , total: 300 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:14:03Z (last step: 7 msec , total: 307 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:15:05Z
+#=#=#=#=# Propagation starts 2025-03-12T10:15:05Z (last step: 261 msec , total: 261 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:15:05Z (last step: 3 msec , total: 265 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:16:07Z
+#=#=#=#=# Propagation starts 2025-03-12T10:16:07Z (last step: 308 msec , total: 308 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:16:07Z (last step: 3 msec , total: 311 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:17:07Z
+#=#=#=#=# Propagation starts 2025-03-12T10:17:07Z (last step: 217 msec , total: 217 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:17:07Z (last step: 6 msec , total: 223 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:17:09Z
+#=#=#=#=# Propagation starts 2025-03-12T10:17:09Z (last step: 296 msec , total: 296 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:17:09Z (last step: 5 msec , total: 302 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:33:41Z
+#=#=#=#=# Propagation starts 2025-03-12T10:33:41Z (last step: 291 msec , total: 291 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:33:41Z (last step: 3 msec , total: 295 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:34:43Z
+#=#=#=#=# Propagation starts 2025-03-12T10:34:43Z (last step: 205 msec , total: 205 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:34:43Z (last step: 4 msec , total: 210 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:35:45Z
+#=#=#=#=# Propagation starts 2025-03-12T10:35:45Z (last step: 175 msec , total: 175 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:35:45Z (last step: 5 msec , total: 181 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:36:47Z
+#=#=#=#=# Propagation starts 2025-03-12T10:36:47Z (last step: 199 msec , total: 199 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:36:47Z (last step: 5 msec , total: 205 msec) 
+#=#=#=# Syncrun started 2025-03-12T10:37:49Z
+#=#=#=#=# Propagation starts 2025-03-12T10:37:49Z (last step: 317 msec , total: 317 msec) 
+#=#=#=# Syncrun finished 2025-03-12T10:37:49Z (last step: 5 msec , total: 322 msec) 
+#=#=#=# Syncrun started 2025-03-12T14:55:40Z
+#=#=#=#=# Propagation starts 2025-03-12T14:55:40Z (last step: 682 msec , total: 682 msec) 
+#=#=#=# Syncrun finished 2025-03-12T14:55:40Z (last step: 8 msec , total: 690 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:12:11Z
+#=#=#=#=# Propagation starts 2025-03-12T15:12:11Z (last step: 209 msec , total: 209 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:12:11Z (last step: 4 msec , total: 214 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:13:13Z
+#=#=#=#=# Propagation starts 2025-03-12T15:13:13Z (last step: 269 msec , total: 269 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:13:13Z (last step: 5 msec , total: 275 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:14:15Z
+#=#=#=#=# Propagation starts 2025-03-12T15:14:16Z (last step: 295 msec , total: 295 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:14:16Z (last step: 4 msec , total: 299 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:15:17Z
+#=#=#=#=# Propagation starts 2025-03-12T15:15:17Z (last step: 322 msec , total: 322 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:15:17Z (last step: 5 msec , total: 328 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:16:19Z
+#=#=#=#=# Propagation starts 2025-03-12T15:16:20Z (last step: 203 msec , total: 203 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:16:20Z (last step: 4 msec , total: 208 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:17:21Z
+#=#=#=#=# Propagation starts 2025-03-12T15:17:21Z (last step: 261 msec , total: 261 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:17:21Z (last step: 5 msec , total: 266 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:18:23Z
+#=#=#=#=# Propagation starts 2025-03-12T15:18:24Z (last step: 241 msec , total: 241 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:18:24Z (last step: 4 msec , total: 246 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:19:25Z
+#=#=#=#=# Propagation starts 2025-03-12T15:19:26Z (last step: 280 msec , total: 280 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:19:26Z (last step: 8 msec , total: 288 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:20:27Z
+#=#=#=#=# Propagation starts 2025-03-12T15:20:27Z (last step: 285 msec , total: 285 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:20:27Z (last step: 7 msec , total: 292 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:21:29Z
+#=#=#=#=# Propagation starts 2025-03-12T15:21:29Z (last step: 257 msec , total: 257 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:21:29Z (last step: 13 msec , total: 270 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:22:32Z
+#=#=#=#=# Propagation starts 2025-03-12T15:22:32Z (last step: 280 msec , total: 280 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:22:32Z (last step: 6 msec , total: 286 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:23:34Z
+#=#=#=#=# Propagation starts 2025-03-12T15:23:35Z (last step: 334 msec , total: 334 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:23:35Z (last step: 5 msec , total: 339 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:24:36Z
+#=#=#=#=# Propagation starts 2025-03-12T15:24:37Z (last step: 420 msec , total: 420 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:24:37Z (last step: 5 msec , total: 425 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:25:39Z
+#=#=#=#=# Propagation starts 2025-03-12T15:25:40Z (last step: 703 msec , total: 703 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:25:40Z (last step: 4 msec , total: 708 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:26:40Z
+#=#=#=#=# Propagation starts 2025-03-12T15:26:40Z (last step: 340 msec , total: 340 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:26:40Z (last step: 4 msec , total: 344 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:43:11Z
+#=#=#=#=# Propagation starts 2025-03-12T15:43:12Z (last step: 508 msec , total: 508 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:43:12Z (last step: 3 msec , total: 512 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:44:13Z
+#=#=#=#=# Propagation starts 2025-03-12T15:44:13Z (last step: 221 msec , total: 221 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:44:13Z (last step: 4 msec , total: 226 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:45:15Z
+#=#=#=#=# Propagation starts 2025-03-12T15:45:15Z (last step: 270 msec , total: 270 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:45:15Z (last step: 4 msec , total: 275 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:46:18Z
+#=#=#=#=# Propagation starts 2025-03-12T15:46:18Z (last step: 207 msec , total: 207 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:46:18Z (last step: 4 msec , total: 212 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:47:19Z
+#=#=#=#=# Propagation starts 2025-03-12T15:47:20Z (last step: 192 msec , total: 192 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:47:20Z (last step: 3 msec , total: 195 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:49:39Z
+#=#=#=#=# Propagation starts 2025-03-12T15:49:39Z (last step: 171 msec , total: 171 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:49:39Z (last step: 2 msec , total: 173 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:50:38Z
+#=#=#=#=# Propagation starts 2025-03-12T15:50:39Z (last step: 198 msec , total: 198 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:50:39Z (last step: 8 msec , total: 207 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:51:40Z
+#=#=#=#=# Propagation starts 2025-03-12T15:51:40Z (last step: 218 msec , total: 218 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:51:40Z (last step: 5 msec , total: 223 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:52:42Z
+#=#=#=#=# Propagation starts 2025-03-12T15:52:43Z (last step: 241 msec , total: 241 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:52:43Z (last step: 5 msec , total: 246 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:53:45Z
+#=#=#=#=# Propagation starts 2025-03-12T15:53:45Z (last step: 195 msec , total: 195 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:53:45Z (last step: 4 msec , total: 199 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:54:47Z
+#=#=#=#=# Propagation starts 2025-03-12T15:54:47Z (last step: 203 msec , total: 203 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:54:47Z (last step: 3 msec , total: 206 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:55:49Z
+#=#=#=#=# Propagation starts 2025-03-12T15:55:49Z (last step: 212 msec , total: 212 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:55:49Z (last step: 9 msec , total: 221 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:56:51Z
+#=#=#=#=# Propagation starts 2025-03-12T15:56:51Z (last step: 261 msec , total: 261 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:56:51Z (last step: 5 msec , total: 267 msec) 
+#=#=#=# Syncrun started 2025-03-12T15:59:10Z
+#=#=#=#=# Propagation starts 2025-03-12T15:59:11Z (last step: 245 msec , total: 245 msec) 
+#=#=#=# Syncrun finished 2025-03-12T15:59:11Z (last step: 3 msec , total: 248 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:01:05Z
+#=#=#=#=# Propagation starts 2025-03-12T16:01:05Z (last step: 300 msec , total: 300 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:01:05Z (last step: 6 msec , total: 307 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:02:09Z
+#=#=#=#=# Propagation starts 2025-03-12T16:02:09Z (last step: 286 msec , total: 286 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:02:09Z (last step: 4 msec , total: 291 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:03:12Z
+#=#=#=#=# Propagation starts 2025-03-12T16:03:12Z (last step: 200 msec , total: 200 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:03:12Z (last step: 8 msec , total: 209 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:04:13Z
+#=#=#=#=# Propagation starts 2025-03-12T16:04:13Z (last step: 183 msec , total: 183 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:04:13Z (last step: 4 msec , total: 188 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:05:15Z
+#=#=#=#=# Propagation starts 2025-03-12T16:05:15Z (last step: 268 msec , total: 268 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:05:15Z (last step: 5 msec , total: 273 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:06:17Z
+#=#=#=#=# Propagation starts 2025-03-12T16:06:17Z (last step: 217 msec , total: 217 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:06:17Z (last step: 4 msec , total: 222 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:07:19Z
+#=#=#=#=# Propagation starts 2025-03-12T16:07:19Z (last step: 303 msec , total: 303 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:07:19Z (last step: 4 msec , total: 308 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:08:21Z
+#=#=#=#=# Propagation starts 2025-03-12T16:08:21Z (last step: 338 msec , total: 338 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:08:21Z (last step: 5 msec , total: 344 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:09:23Z
+#=#=#=#=# Propagation starts 2025-03-12T16:09:23Z (last step: 300 msec , total: 300 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:09:23Z (last step: 8 msec , total: 309 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:10:25Z
+#=#=#=#=# Propagation starts 2025-03-12T16:10:25Z (last step: 190 msec , total: 190 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:10:25Z (last step: 7 msec , total: 197 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:11:27Z
+#=#=#=#=# Propagation starts 2025-03-12T16:11:27Z (last step: 204 msec , total: 204 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:11:27Z (last step: 4 msec , total: 208 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:12:29Z
+#=#=#=#=# Propagation starts 2025-03-12T16:12:29Z (last step: 228 msec , total: 228 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:12:29Z (last step: 4 msec , total: 232 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:13:31Z
+#=#=#=#=# Propagation starts 2025-03-12T16:13:31Z (last step: 226 msec , total: 226 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:13:31Z (last step: 3 msec , total: 230 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:14:33Z
+#=#=#=#=# Propagation starts 2025-03-12T16:14:33Z (last step: 194 msec , total: 194 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:14:33Z (last step: 4 msec , total: 199 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:15:35Z
+#=#=#=#=# Propagation starts 2025-03-12T16:15:35Z (last step: 255 msec , total: 255 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:15:35Z (last step: 4 msec , total: 260 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:16:37Z
+#=#=#=#=# Propagation starts 2025-03-12T16:16:37Z (last step: 332 msec , total: 332 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:16:37Z (last step: 4 msec , total: 336 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:33:09Z
+#=#=#=#=# Propagation starts 2025-03-12T16:33:09Z (last step: 276 msec , total: 276 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:33:09Z (last step: 4 msec , total: 280 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:34:10Z
+#=#=#=#=# Propagation starts 2025-03-12T16:34:11Z (last step: 179 msec , total: 179 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:34:11Z (last step: 4 msec , total: 184 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:35:13Z
+#=#=#=#=# Propagation starts 2025-03-12T16:35:13Z (last step: 205 msec , total: 205 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:35:13Z (last step: 4 msec , total: 210 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:36:15Z
+#=#=#=#=# Propagation starts 2025-03-12T16:36:15Z (last step: 199 msec , total: 199 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:36:15Z (last step: 6 msec , total: 206 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:37:17Z
+#=#=#=#=# Propagation starts 2025-03-12T16:37:17Z (last step: 234 msec , total: 234 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:37:17Z (last step: 4 msec , total: 238 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:38:19Z
+#=#=#=#=# Propagation starts 2025-03-12T16:38:19Z (last step: 205 msec , total: 205 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:38:19Z (last step: 6 msec , total: 211 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:39:21Z
+#=#=#=#=# Propagation starts 2025-03-12T16:39:21Z (last step: 320 msec , total: 320 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:39:21Z (last step: 5 msec , total: 325 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:40:23Z
+#=#=#=#=# Propagation starts 2025-03-12T16:40:23Z (last step: 276 msec , total: 276 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:40:23Z (last step: 5 msec , total: 281 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:41:25Z
+#=#=#=#=# Propagation starts 2025-03-12T16:41:25Z (last step: 276 msec , total: 276 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:41:25Z (last step: 2 msec , total: 278 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:42:27Z
+#=#=#=#=# Propagation starts 2025-03-12T16:42:27Z (last step: 431 msec , total: 431 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:42:27Z (last step: 4 msec , total: 435 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:43:29Z
+#=#=#=#=# Propagation starts 2025-03-12T16:43:29Z (last step: 194 msec , total: 194 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:43:29Z (last step: 4 msec , total: 199 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:44:31Z
+#=#=#=#=# Propagation starts 2025-03-12T16:44:31Z (last step: 229 msec , total: 229 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:44:31Z (last step: 4 msec , total: 234 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:45:33Z
+#=#=#=#=# Propagation starts 2025-03-12T16:45:33Z (last step: 235 msec , total: 235 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:45:33Z (last step: 4 msec , total: 239 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:46:35Z
+#=#=#=#=# Propagation starts 2025-03-12T16:46:35Z (last step: 186 msec , total: 186 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:46:35Z (last step: 5 msec , total: 191 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:53:38Z
+#=#=#=#=# Propagation starts 2025-03-12T16:53:38Z (last step: 263 msec , total: 263 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:53:38Z (last step: 2 msec , total: 266 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:53:59Z
+#=#=#=#=# Propagation starts 2025-03-12T16:54:00Z (last step: 198 msec , total: 198 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:54:00Z (last step: 4 msec , total: 203 msec) 
+#=#=#=# Syncrun started 2025-03-12T16:56:01Z
+#=#=#=#=# Propagation starts 2025-03-12T16:56:02Z (last step: 202 msec , total: 202 msec) 
+#=#=#=# Syncrun finished 2025-03-12T16:56:02Z (last step: 5 msec , total: 208 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:09:28Z
+#=#=#=#=# Propagation starts 2025-03-12T17:09:28Z (last step: 198 msec , total: 198 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:09:28Z (last step: 4 msec , total: 203 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:10:31Z
+#=#=#=#=# Propagation starts 2025-03-12T17:10:31Z (last step: 255 msec , total: 255 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:10:31Z (last step: 4 msec , total: 259 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:11:33Z
+#=#=#=#=# Propagation starts 2025-03-12T17:11:34Z (last step: 233 msec , total: 233 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:11:34Z (last step: 4 msec , total: 238 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:12:35Z
+#=#=#=#=# Propagation starts 2025-03-12T17:12:36Z (last step: 255 msec , total: 255 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:12:36Z (last step: 5 msec , total: 260 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:13:38Z
+#=#=#=#=# Propagation starts 2025-03-12T17:13:38Z (last step: 235 msec , total: 235 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:13:38Z (last step: 6 msec , total: 241 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:14:39Z
+#=#=#=#=# Propagation starts 2025-03-12T17:14:40Z (last step: 212 msec , total: 212 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:14:40Z (last step: 8 msec , total: 220 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:15:41Z
+#=#=#=#=# Propagation starts 2025-03-12T17:15:42Z (last step: 345 msec , total: 345 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:15:42Z (last step: 25 msec , total: 370 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:16:43Z
+#=#=#=#=# Propagation starts 2025-03-12T17:16:44Z (last step: 258 msec , total: 258 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:16:44Z (last step: 5 msec , total: 263 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:17:45Z
+#=#=#=#=# Propagation starts 2025-03-12T17:17:46Z (last step: 254 msec , total: 254 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:17:46Z (last step: 6 msec , total: 260 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:18:47Z
+#=#=#=#=# Propagation starts 2025-03-12T17:18:48Z (last step: 247 msec , total: 247 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:18:48Z (last step: 13 msec , total: 260 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:19:49Z
+#=#=#=#=# Propagation starts 2025-03-12T17:19:50Z (last step: 194 msec , total: 194 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:19:50Z (last step: 6 msec , total: 201 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:20:52Z
+#=#=#=#=# Propagation starts 2025-03-12T17:20:52Z (last step: 288 msec , total: 288 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:20:52Z (last step: 5 msec , total: 293 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:21:53Z
+#=#=#=#=# Propagation starts 2025-03-12T17:21:53Z (last step: 218 msec , total: 218 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:21:53Z (last step: 7 msec , total: 225 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:22:55Z
+#=#=#=#=# Propagation starts 2025-03-12T17:22:56Z (last step: 257 msec , total: 257 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:22:56Z (last step: 5 msec , total: 263 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:23:57Z
+#=#=#=#=# Propagation starts 2025-03-12T17:23:58Z (last step: 219 msec , total: 219 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:23:58Z (last step: 4 msec , total: 224 msec) 
+#=#=#=# Syncrun started 2025-03-12T17:25:00Z
+#=#=#=#=# Propagation starts 2025-03-12T17:25:00Z (last step: 324 msec , total: 324 msec) 
+#=#=#=# Syncrun finished 2025-03-12T17:25:00Z (last step: 4 msec , total: 329 msec) 
+#=#=#=# Syncrun started 2025-03-12T20:47:37Z
+#=#=#=#=# Propagation starts 2025-03-12T20:47:38Z (last step: 1136 msec , total: 1136 msec) 
+#=#=#=# Syncrun finished 2025-03-12T20:47:38Z (last step: 7 msec , total: 1143 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:04:09Z
+#=#=#=#=# Propagation starts 2025-03-12T21:04:09Z (last step: 188 msec , total: 188 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:04:09Z (last step: 4 msec , total: 193 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:05:11Z
+#=#=#=#=# Propagation starts 2025-03-12T21:05:11Z (last step: 225 msec , total: 225 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:05:11Z (last step: 5 msec , total: 231 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:06:12Z
+#=#=#=#=# Propagation starts 2025-03-12T21:06:13Z (last step: 243 msec , total: 243 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:06:13Z (last step: 5 msec , total: 249 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:07:15Z
+#=#=#=#=# Propagation starts 2025-03-12T21:07:15Z (last step: 179 msec , total: 179 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:07:15Z (last step: 4 msec , total: 183 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:08:16Z
+#=#=#=#=# Propagation starts 2025-03-12T21:08:17Z (last step: 246 msec , total: 246 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:08:17Z (last step: 4 msec , total: 250 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:09:18Z
+#=#=#=#=# Propagation starts 2025-03-12T21:09:19Z (last step: 293 msec , total: 293 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:09:19Z (last step: 3 msec , total: 296 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:10:20Z
+#=#=#=#=# Propagation starts 2025-03-12T21:10:21Z (last step: 190 msec , total: 190 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:10:21Z (last step: 5 msec , total: 196 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:11:22Z
+#=#=#=#=# Propagation starts 2025-03-12T21:11:23Z (last step: 250 msec , total: 250 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:11:23Z (last step: 4 msec , total: 255 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:12:24Z
+#=#=#=#=# Propagation starts 2025-03-12T21:12:25Z (last step: 209 msec , total: 209 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:12:25Z (last step: 4 msec , total: 214 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:13:26Z
+#=#=#=#=# Propagation starts 2025-03-12T21:13:27Z (last step: 223 msec , total: 223 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:13:27Z (last step: 5 msec , total: 228 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:14:29Z
+#=#=#=#=# Propagation starts 2025-03-12T21:14:29Z (last step: 192 msec , total: 192 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:14:29Z (last step: 3 msec , total: 196 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:15:31Z
+#=#=#=#=# Propagation starts 2025-03-12T21:15:31Z (last step: 159 msec , total: 159 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:15:31Z (last step: 5 msec , total: 164 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:16:33Z
+#=#=#=#=# Propagation starts 2025-03-12T21:16:33Z (last step: 177 msec , total: 177 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:16:33Z (last step: 5 msec , total: 183 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:17:34Z
+#=#=#=#=# Propagation starts 2025-03-12T21:17:35Z (last step: 266 msec , total: 266 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:17:35Z (last step: 5 msec , total: 271 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:18:37Z
+#=#=#=#=# Propagation starts 2025-03-12T21:18:37Z (last step: 221 msec , total: 221 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:18:37Z (last step: 5 msec , total: 227 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:35:09Z
+#=#=#=#=# Propagation starts 2025-03-12T21:35:09Z (last step: 184 msec , total: 184 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:35:09Z (last step: 5 msec , total: 190 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:36:11Z
+#=#=#=#=# Propagation starts 2025-03-12T21:36:11Z (last step: 179 msec , total: 179 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:36:11Z (last step: 10 msec , total: 189 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:37:13Z
+#=#=#=#=# Propagation starts 2025-03-12T21:37:13Z (last step: 217 msec , total: 217 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:37:13Z (last step: 6 msec , total: 224 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:38:14Z
+#=#=#=#=# Propagation starts 2025-03-12T21:38:15Z (last step: 182 msec , total: 182 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:38:15Z (last step: 6 msec , total: 189 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:39:17Z
+#=#=#=#=# Propagation starts 2025-03-12T21:39:17Z (last step: 172 msec , total: 172 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:39:17Z (last step: 5 msec , total: 178 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:40:19Z
+#=#=#=#=# Propagation starts 2025-03-12T21:40:19Z (last step: 187 msec , total: 187 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:40:19Z (last step: 5 msec , total: 192 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:41:21Z
+#=#=#=#=# Propagation starts 2025-03-12T21:41:21Z (last step: 169 msec , total: 169 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:41:21Z (last step: 8 msec , total: 177 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:42:22Z
+#=#=#=#=# Propagation starts 2025-03-12T21:42:23Z (last step: 215 msec , total: 215 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:42:23Z (last step: 4 msec , total: 219 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:43:25Z
+#=#=#=#=# Propagation starts 2025-03-12T21:43:25Z (last step: 182 msec , total: 182 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:43:25Z (last step: 23 msec , total: 206 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:44:27Z
+#=#=#=#=# Propagation starts 2025-03-12T21:44:27Z (last step: 199 msec , total: 199 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:44:27Z (last step: 6 msec , total: 205 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:45:29Z
+#=#=#=#=# Propagation starts 2025-03-12T21:45:29Z (last step: 225 msec , total: 225 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:45:29Z (last step: 3 msec , total: 228 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:46:30Z
+#=#=#=#=# Propagation starts 2025-03-12T21:46:31Z (last step: 241 msec , total: 241 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:46:31Z (last step: 6 msec , total: 248 msec) 
+#=#=#=# Syncrun started 2025-03-12T21:49:35Z
+#=#=#=#=# Propagation starts 2025-03-12T21:49:35Z (last step: 359 msec , total: 359 msec) 
+#=#=#=# Syncrun finished 2025-03-12T21:49:35Z (last step: 5 msec , total: 365 msec) 
+#=#=#=# Syncrun started 2025-03-12T22:21:23Z
+#=#=#=#=# Propagation starts 2025-03-12T22:21:24Z (last step: 179 msec , total: 179 msec) 
+#=#=#=# Syncrun finished 2025-03-12T22:21:24Z (last step: 4 msec , total: 183 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:01:16Z
+#=#=#=#=# Propagation starts 2025-03-13T07:01:16Z (last step: 297 msec , total: 297 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:01:16Z (last step: 4 msec , total: 301 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:01:53Z
+#=#=#=#=# Propagation starts 2025-03-13T07:01:53Z (last step: 260 msec , total: 260 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:01:53Z (last step: 6 msec , total: 267 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:02:55Z
+#=#=#=#=# Propagation starts 2025-03-13T07:02:55Z (last step: 173 msec , total: 173 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:02:55Z (last step: 3 msec , total: 177 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:03:57Z
+#=#=#=#=# Propagation starts 2025-03-13T07:03:57Z (last step: 177 msec , total: 177 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:03:57Z (last step: 6 msec , total: 183 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:05:02Z
+#=#=#=#=# Propagation starts 2025-03-13T07:05:02Z (last step: 182 msec , total: 182 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:05:02Z (last step: 6 msec , total: 188 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:06:05Z
+#=#=#=#=# Propagation starts 2025-03-13T07:06:05Z (last step: 163 msec , total: 163 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:06:05Z (last step: 4 msec , total: 168 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:07:09Z
+#=#=#=#=# Propagation starts 2025-03-13T07:07:10Z (last step: 1265 msec , total: 1265 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:07:10Z (last step: 4 msec , total: 1269 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:08:15Z
+#=#=#=#=# Propagation starts 2025-03-13T07:08:17Z (last step: 1833 msec , total: 1833 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:08:17Z (last step: 5 msec , total: 1838 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:09:10Z
+#=#=#=#=# Propagation starts 2025-03-13T07:09:11Z (last step: 1175 msec , total: 1175 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:09:11Z (last step: 5 msec , total: 1181 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:10:13Z
+#=#=#=#=# Propagation starts 2025-03-13T07:10:13Z (last step: 211 msec , total: 211 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:10:13Z (last step: 4 msec , total: 215 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:11:18Z
+#=#=#=#=# Propagation starts 2025-03-13T07:11:18Z (last step: 184 msec , total: 184 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:11:18Z (last step: 5 msec , total: 189 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:12:18Z
+#=#=#=#=# Propagation starts 2025-03-13T07:12:19Z (last step: 598 msec , total: 598 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:12:19Z (last step: 6 msec , total: 605 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:13:16Z
+#=#=#=#=# Propagation starts 2025-03-13T07:13:16Z (last step: 193 msec , total: 193 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:13:16Z (last step: 5 msec , total: 199 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:29:55Z
+#=#=#=#=# Propagation starts 2025-03-13T07:29:55Z (last step: 220 msec , total: 220 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:29:55Z (last step: 6 msec , total: 227 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:30:57Z
+#=#=#=#=# Propagation starts 2025-03-13T07:30:57Z (last step: 174 msec , total: 174 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:30:57Z (last step: 4 msec , total: 178 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:31:59Z
+#=#=#=#=# Propagation starts 2025-03-13T07:32:00Z (last step: 180 msec , total: 180 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:32:00Z (last step: 7 msec , total: 187 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:33:03Z
+#=#=#=#=# Propagation starts 2025-03-13T07:33:04Z (last step: 1486 msec , total: 1486 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:33:04Z (last step: 5 msec , total: 1491 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:34:05Z
+#=#=#=#=# Propagation starts 2025-03-13T07:34:07Z (last step: 1824 msec , total: 1824 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:34:07Z (last step: 5 msec , total: 1829 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:35:05Z
+#=#=#=#=# Propagation starts 2025-03-13T07:35:07Z (last step: 1926 msec , total: 1926 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:35:07Z (last step: 3 msec , total: 1930 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:36:09Z
+#=#=#=#=# Propagation starts 2025-03-13T07:36:10Z (last step: 1708 msec , total: 1708 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:36:10Z (last step: 4 msec , total: 1712 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:37:09Z
+#=#=#=#=# Propagation starts 2025-03-13T07:37:10Z (last step: 269 msec , total: 269 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:37:10Z (last step: 7 msec , total: 276 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:38:10Z
+#=#=#=#=# Propagation starts 2025-03-13T07:38:10Z (last step: 198 msec , total: 198 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:38:10Z (last step: 6 msec , total: 204 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:39:31Z
+#=#=#=#=# Propagation starts 2025-03-13T07:39:33Z (last step: 1714 msec , total: 1714 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:39:33Z (last step: 5 msec , total: 1719 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:40:18Z
+#=#=#=#=# Propagation starts 2025-03-13T07:40:21Z (last step: 2261 msec , total: 2261 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:40:21Z (last step: 4 msec , total: 2266 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:41:18Z
+#=#=#=#=# Propagation starts 2025-03-13T07:41:20Z (last step: 1613 msec , total: 1613 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:41:20Z (last step: 4 msec , total: 1618 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:42:23Z
+#=#=#=#=# Propagation starts 2025-03-13T07:42:25Z (last step: 2838 msec , total: 2838 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:42:25Z (last step: 4 msec , total: 2842 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:43:21Z
+#=#=#=#=# Propagation starts 2025-03-13T07:43:23Z (last step: 1526 msec , total: 1526 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:43:23Z (last step: 5 msec , total: 1531 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:44:27Z
+#=#=#=#=# Propagation starts 2025-03-13T07:44:29Z (last step: 2018 msec , total: 2018 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:44:29Z (last step: 4 msec , total: 2023 msec) 
+#=#=#=# Syncrun started 2025-03-13T07:59:44Z
+#=#=#=#=# Propagation starts 2025-03-13T07:59:45Z (last step: 1180 msec , total: 1180 msec) 
+#=#=#=# Syncrun finished 2025-03-13T07:59:45Z (last step: 5 msec , total: 1185 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:00:52Z
+#=#=#=#=# Propagation starts 2025-03-13T08:00:53Z (last step: 807 msec , total: 807 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:00:53Z (last step: 5 msec , total: 812 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:01:22Z
+#=#=#=#=# Propagation starts 2025-03-13T08:01:23Z (last step: 796 msec , total: 796 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:01:23Z (last step: 5 msec , total: 801 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:02:57Z
+#=#=#=#=# Propagation starts 2025-03-13T08:02:58Z (last step: 1054 msec , total: 1054 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:02:58Z (last step: 4 msec , total: 1058 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:03:57Z
+#=#=#=#=# Propagation starts 2025-03-13T08:03:58Z (last step: 229 msec , total: 229 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:03:58Z (last step: 5 msec , total: 235 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:05:00Z
+#=#=#=#=# Propagation starts 2025-03-13T08:05:00Z (last step: 167 msec , total: 167 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:05:00Z (last step: 3 msec , total: 170 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:06:03Z
+#=#=#=#=# Propagation starts 2025-03-13T08:06:04Z (last step: 750 msec , total: 750 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:06:04Z (last step: 6 msec , total: 757 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:07:03Z
+#=#=#=#=# Propagation starts 2025-03-13T08:07:04Z (last step: 897 msec , total: 897 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:07:04Z (last step: 5 msec , total: 903 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:08:08Z
+#=#=#=#=# Propagation starts 2025-03-13T08:08:09Z (last step: 688 msec , total: 688 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:08:09Z (last step: 5 msec , total: 694 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:09:08Z
+#=#=#=#=# Propagation starts 2025-03-13T08:09:09Z (last step: 223 msec , total: 223 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:09:09Z (last step: 5 msec , total: 229 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:10:09Z
+#=#=#=#=# Propagation starts 2025-03-13T08:10:10Z (last step: 235 msec , total: 235 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:10:10Z (last step: 4 msec , total: 240 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:11:15Z
+#=#=#=#=# Propagation starts 2025-03-13T08:11:16Z (last step: 1094 msec , total: 1094 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:11:16Z (last step: 5 msec , total: 1100 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:12:14Z
+#=#=#=#=# Propagation starts 2025-03-13T08:12:15Z (last step: 959 msec , total: 959 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:12:15Z (last step: 7 msec , total: 967 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:13:14Z
+#=#=#=#=# Propagation starts 2025-03-13T08:13:15Z (last step: 975 msec , total: 975 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:13:15Z (last step: 6 msec , total: 982 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:14:19Z
+#=#=#=#=# Propagation starts 2025-03-13T08:14:20Z (last step: 1415 msec , total: 1415 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:14:20Z (last step: 5 msec , total: 1420 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:15:20Z
+#=#=#=#=# Propagation starts 2025-03-13T08:15:21Z (last step: 1049 msec , total: 1049 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:15:21Z (last step: 8 msec , total: 1057 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:30:48Z
+#=#=#=#=# Propagation starts 2025-03-13T08:30:49Z (last step: 1078 msec , total: 1078 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:30:49Z (last step: 6 msec , total: 1085 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:47:17Z
+#=#=#=#=# Propagation starts 2025-03-13T08:47:17Z (last step: 181 msec , total: 181 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:47:17Z (last step: 3 msec , total: 184 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:48:19Z
+#=#=#=#=# Propagation starts 2025-03-13T08:48:19Z (last step: 240 msec , total: 240 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:48:19Z (last step: 6 msec , total: 246 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:49:21Z
+#=#=#=#=# Propagation starts 2025-03-13T08:49:21Z (last step: 249 msec , total: 249 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:49:21Z (last step: 7 msec , total: 257 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:50:23Z
+#=#=#=#=# Propagation starts 2025-03-13T08:50:24Z (last step: 377 msec , total: 377 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:50:24Z (last step: 3 msec , total: 380 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:51:28Z
+#=#=#=#=# Propagation starts 2025-03-13T08:51:29Z (last step: 424 msec , total: 424 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:51:29Z (last step: 5 msec , total: 430 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:52:29Z
+#=#=#=#=# Propagation starts 2025-03-13T08:52:29Z (last step: 336 msec , total: 336 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:52:29Z (last step: 5 msec , total: 342 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:53:31Z
+#=#=#=#=# Propagation starts 2025-03-13T08:53:31Z (last step: 487 msec , total: 487 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:53:31Z (last step: 5 msec , total: 493 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:54:32Z
+#=#=#=#=# Propagation starts 2025-03-13T08:54:32Z (last step: 511 msec , total: 511 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:54:32Z (last step: 5 msec , total: 516 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:55:34Z
+#=#=#=#=# Propagation starts 2025-03-13T08:55:34Z (last step: 296 msec , total: 296 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:55:34Z (last step: 4 msec , total: 301 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:56:36Z
+#=#=#=#=# Propagation starts 2025-03-13T08:56:36Z (last step: 467 msec , total: 467 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:56:36Z (last step: 5 msec , total: 473 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:57:38Z
+#=#=#=#=# Propagation starts 2025-03-13T08:57:38Z (last step: 520 msec , total: 520 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:57:38Z (last step: 6 msec , total: 527 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:58:39Z
+#=#=#=#=# Propagation starts 2025-03-13T08:58:39Z (last step: 261 msec , total: 261 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:58:39Z (last step: 3 msec , total: 265 msec) 
+#=#=#=# Syncrun started 2025-03-13T08:59:41Z
+#=#=#=#=# Propagation starts 2025-03-13T08:59:42Z (last step: 248 msec , total: 248 msec) 
+#=#=#=# Syncrun finished 2025-03-13T08:59:42Z (last step: 6 msec , total: 255 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:00:43Z
+#=#=#=#=# Propagation starts 2025-03-13T09:00:44Z (last step: 668 msec , total: 668 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:00:44Z (last step: 6 msec , total: 674 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:01:45Z
+#=#=#=#=# Propagation starts 2025-03-13T09:01:45Z (last step: 698 msec , total: 698 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:01:45Z (last step: 4 msec , total: 702 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:01:47Z
+#=#=#=#=# Propagation starts 2025-03-13T09:01:47Z (last step: 229 msec , total: 229 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:01:47Z (last step: 4 msec , total: 234 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:06:57Z
+#=#=#=#=# Propagation starts 2025-03-13T09:06:58Z (last step: 512 msec , total: 512 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:06:58Z (last step: 9 msec , total: 521 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:07:58Z
+#=#=#=#=# Propagation starts 2025-03-13T09:07:58Z (last step: 445 msec , total: 445 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:07:58Z (last step: 4 msec , total: 450 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:08:59Z
+#=#=#=#=# Propagation starts 2025-03-13T09:08:59Z (last step: 401 msec , total: 401 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:08:59Z (last step: 6 msec , total: 407 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:10:02Z
+#=#=#=#=# Propagation starts 2025-03-13T09:10:02Z (last step: 484 msec , total: 484 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:10:02Z (last step: 8 msec , total: 492 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:11:04Z
+#=#=#=#=# Propagation starts 2025-03-13T09:11:04Z (last step: 491 msec , total: 491 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:11:04Z (last step: 4 msec , total: 495 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:12:06Z
+#=#=#=#=# Propagation starts 2025-03-13T09:12:07Z (last step: 571 msec , total: 571 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:12:07Z (last step: 6 msec , total: 577 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:13:07Z
+#=#=#=#=# Propagation starts 2025-03-13T09:13:08Z (last step: 599 msec , total: 599 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:13:08Z (last step: 4 msec , total: 603 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:14:10Z
+#=#=#=#=# Propagation starts 2025-03-13T09:14:11Z (last step: 421 msec , total: 421 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:14:11Z (last step: 4 msec , total: 426 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:15:11Z
+#=#=#=#=# Propagation starts 2025-03-13T09:15:11Z (last step: 358 msec , total: 358 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:15:11Z (last step: 6 msec , total: 364 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:16:13Z
+#=#=#=#=# Propagation starts 2025-03-13T09:16:14Z (last step: 435 msec , total: 435 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:16:14Z (last step: 4 msec , total: 439 msec) 
+#=#=#=# Syncrun started 2025-03-13T09:17:15Z
+#=#=#=#=# Propagation starts 2025-03-13T09:17:16Z (last step: 318 msec , total: 318 msec) 
+#=#=#=# Syncrun finished 2025-03-13T09:17:16Z (last step: 7 msec , total: 326 msec) 
+#=#=#=# Syncrun started 2025-03-13T11:59:30Z
+#=#=#=#=# Propagation starts 2025-03-13T11:59:31Z (last step: 1006 msec , total: 1006 msec) 
+#=#=#=# Syncrun finished 2025-03-13T11:59:31Z (last step: 2 msec , total: 1009 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:14:56Z
+#=#=#=#=# Propagation starts 2025-03-13T12:14:56Z (last step: 199 msec , total: 199 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:14:56Z (last step: 5 msec , total: 205 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:15:59Z
+#=#=#=#=# Propagation starts 2025-03-13T12:16:00Z (last step: 632 msec , total: 632 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:16:00Z (last step: 4 msec , total: 637 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:16:59Z
+#=#=#=#=# Propagation starts 2025-03-13T12:17:00Z (last step: 523 msec , total: 523 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:17:00Z (last step: 8 msec , total: 531 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:18:00Z
+#=#=#=#=# Propagation starts 2025-03-13T12:18:01Z (last step: 187 msec , total: 187 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:18:01Z (last step: 4 msec , total: 192 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:19:03Z
+#=#=#=#=# Propagation starts 2025-03-13T12:19:03Z (last step: 202 msec , total: 202 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:19:03Z (last step: 4 msec , total: 207 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:20:04Z
+#=#=#=#=# Propagation starts 2025-03-13T12:20:05Z (last step: 523 msec , total: 523 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:20:05Z (last step: 4 msec , total: 528 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:21:07Z
+#=#=#=#=# Propagation starts 2025-03-13T12:21:07Z (last step: 281 msec , total: 281 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:21:07Z (last step: 6 msec , total: 287 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:22:09Z
+#=#=#=#=# Propagation starts 2025-03-13T12:22:09Z (last step: 346 msec , total: 346 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:22:09Z (last step: 4 msec , total: 351 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:26:20Z
+#=#=#=#=# Propagation starts 2025-03-13T12:26:20Z (last step: 264 msec , total: 264 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:26:20Z (last step: 4 msec , total: 269 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:27:10Z
+#=#=#=#=# Propagation starts 2025-03-13T12:27:11Z (last step: 278 msec , total: 278 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:27:11Z (last step: 4 msec , total: 283 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:28:12Z
+#=#=#=#=# Propagation starts 2025-03-13T12:28:13Z (last step: 226 msec , total: 226 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:28:13Z (last step: 4 msec , total: 231 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:29:15Z
+#=#=#=#=# Propagation starts 2025-03-13T12:29:15Z (last step: 301 msec , total: 301 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:29:15Z (last step: 3 msec , total: 304 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:30:16Z
+#=#=#=#=# Propagation starts 2025-03-13T12:30:17Z (last step: 300 msec , total: 300 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:30:17Z (last step: 3 msec , total: 303 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:31:19Z
+#=#=#=#=# Propagation starts 2025-03-13T12:31:19Z (last step: 305 msec , total: 305 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:31:19Z (last step: 3 msec , total: 309 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:32:20Z
+#=#=#=#=# Propagation starts 2025-03-13T12:32:20Z (last step: 333 msec , total: 333 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:32:20Z (last step: 4 msec , total: 338 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:33:23Z
+#=#=#=#=# Propagation starts 2025-03-13T12:33:23Z (last step: 248 msec , total: 248 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:33:23Z (last step: 5 msec , total: 254 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:34:25Z
+#=#=#=#=# Propagation starts 2025-03-13T12:34:25Z (last step: 222 msec , total: 222 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:34:25Z (last step: 4 msec , total: 226 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:49:55Z
+#=#=#=#=# Propagation starts 2025-03-13T12:49:55Z (last step: 213 msec , total: 213 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:49:55Z (last step: 4 msec , total: 217 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:50:56Z
+#=#=#=#=# Propagation starts 2025-03-13T12:50:56Z (last step: 246 msec , total: 246 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:50:56Z (last step: 4 msec , total: 250 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:51:58Z
+#=#=#=#=# Propagation starts 2025-03-13T12:51:59Z (last step: 254 msec , total: 254 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:51:59Z (last step: 4 msec , total: 258 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:56:14Z
+#=#=#=#=# Propagation starts 2025-03-13T12:56:15Z (last step: 174 msec , total: 174 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:56:15Z (last step: 4 msec , total: 178 msec) 
+#=#=#=# Syncrun started 2025-03-13T12:59:49Z
+#=#=#=#=# Propagation starts 2025-03-13T12:59:50Z (last step: 1226 msec , total: 1226 msec) 
+#=#=#=# Syncrun finished 2025-03-13T12:59:50Z (last step: 9 msec , total: 1236 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:09:04Z
+#=#=#=#=# Propagation starts 2025-03-13T13:09:05Z (last step: 1481 msec , total: 1481 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:09:05Z (last step: 5 msec , total: 1487 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:10:12Z
+#=#=#=#=# Propagation starts 2025-03-13T13:10:12Z (last step: 234 msec , total: 234 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:10:12Z (last step: 5 msec , total: 239 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:11:14Z
+#=#=#=#=# Propagation starts 2025-03-13T13:11:14Z (last step: 204 msec , total: 204 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:11:14Z (last step: 5 msec , total: 209 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:12:17Z
+#=#=#=#=# Propagation starts 2025-03-13T13:12:19Z (last step: 1263 msec , total: 1263 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:12:19Z (last step: 3 msec , total: 1266 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:13:20Z
+#=#=#=#=# Propagation starts 2025-03-13T13:13:22Z (last step: 1624 msec , total: 1624 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:13:22Z (last step: 11 msec , total: 1636 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:14:21Z
+#=#=#=#=# Propagation starts 2025-03-13T13:14:23Z (last step: 2033 msec , total: 2033 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:14:23Z (last step: 4 msec , total: 2037 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:15:20Z
+#=#=#=#=# Propagation starts 2025-03-13T13:15:21Z (last step: 914 msec , total: 914 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:15:21Z (last step: 6 msec , total: 920 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:16:19Z
+#=#=#=#=# Propagation starts 2025-03-13T13:16:19Z (last step: 505 msec , total: 505 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:16:20Z (last step: 12 msec , total: 517 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:17:21Z
+#=#=#=#=# Propagation starts 2025-03-13T13:17:22Z (last step: 512 msec , total: 512 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:17:22Z (last step: 5 msec , total: 517 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:18:23Z
+#=#=#=#=# Propagation starts 2025-03-13T13:18:23Z (last step: 524 msec , total: 524 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:18:23Z (last step: 4 msec , total: 529 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:19:27Z
+#=#=#=#=# Propagation starts 2025-03-13T13:19:28Z (last step: 510 msec , total: 510 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:19:28Z (last step: 5 msec , total: 515 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:20:27Z
+#=#=#=#=# Propagation starts 2025-03-13T13:20:28Z (last step: 399 msec , total: 399 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:20:28Z (last step: 3 msec , total: 403 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:21:29Z
+#=#=#=#=# Propagation starts 2025-03-13T13:21:30Z (last step: 776 msec , total: 776 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:21:30Z (last step: 3 msec , total: 780 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:22:32Z
+#=#=#=#=# Propagation starts 2025-03-13T13:22:32Z (last step: 198 msec , total: 198 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:22:32Z (last step: 4 msec , total: 203 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:23:33Z
+#=#=#=#=# Propagation starts 2025-03-13T13:23:34Z (last step: 236 msec , total: 236 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:23:34Z (last step: 5 msec , total: 242 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:24:37Z
+#=#=#=#=# Propagation starts 2025-03-13T13:24:37Z (last step: 302 msec , total: 302 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:24:37Z (last step: 4 msec , total: 306 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:38:59Z
+#=#=#=#=# Propagation starts 2025-03-13T13:39:00Z (last step: 1112 msec , total: 1112 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:39:00Z (last step: 6 msec , total: 1118 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:39:57Z
+#=#=#=#=# Propagation starts 2025-03-13T13:39:58Z (last step: 1258 msec , total: 1258 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:39:58Z (last step: 3 msec , total: 1261 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:40:58Z
+#=#=#=#=# Propagation starts 2025-03-13T13:41:00Z (last step: 1213 msec , total: 1213 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:41:00Z (last step: 13 msec , total: 1226 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:42:01Z
+#=#=#=#=# Propagation starts 2025-03-13T13:42:03Z (last step: 1327 msec , total: 1327 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:42:03Z (last step: 4 msec , total: 1332 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:43:01Z
+#=#=#=#=# Propagation starts 2025-03-13T13:43:02Z (last step: 1326 msec , total: 1326 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:43:02Z (last step: 9 msec , total: 1335 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:44:00Z
+#=#=#=#=# Propagation starts 2025-03-13T13:44:01Z (last step: 1165 msec , total: 1165 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:44:01Z (last step: 4 msec , total: 1169 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:45:00Z
+#=#=#=#=# Propagation starts 2025-03-13T13:45:01Z (last step: 500 msec , total: 500 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:45:01Z (last step: 4 msec , total: 504 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:46:02Z
+#=#=#=#=# Propagation starts 2025-03-13T13:46:03Z (last step: 307 msec , total: 307 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:46:03Z (last step: 4 msec , total: 311 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:47:04Z
+#=#=#=#=# Propagation starts 2025-03-13T13:47:05Z (last step: 503 msec , total: 503 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:47:05Z (last step: 5 msec , total: 508 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:48:06Z
+#=#=#=#=# Propagation starts 2025-03-13T13:48:06Z (last step: 241 msec , total: 241 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:48:06Z (last step: 7 msec , total: 248 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:49:08Z
+#=#=#=#=# Propagation starts 2025-03-13T13:49:09Z (last step: 234 msec , total: 234 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:49:09Z (last step: 13 msec , total: 247 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:50:11Z
+#=#=#=#=# Propagation starts 2025-03-13T13:50:11Z (last step: 287 msec , total: 287 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:50:11Z (last step: 11 msec , total: 298 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:51:12Z
+#=#=#=#=# Propagation starts 2025-03-13T13:51:13Z (last step: 291 msec , total: 291 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:51:13Z (last step: 13 msec , total: 305 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:52:17Z
+#=#=#=#=# Propagation starts 2025-03-13T13:52:17Z (last step: 486 msec , total: 486 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:52:17Z (last step: 9 msec , total: 495 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:52:35Z
+#=#=#=#=# Propagation starts 2025-03-13T13:52:36Z (last step: 1132 msec , total: 1132 msec) 
+2025-03-13T13:52:36+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741873951 | a35e832d4a3b052c41f405a14c147ebb | 827 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 467 | 1741180946 | ce65df89-dc2b-43b0-b3d4-cd3d85c91253 | 
+#=#=#=# Syncrun finished 2025-03-13T13:52:38Z (last step: 1827 msec , total: 2960 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:53:18Z
+#=#=#=#=# Propagation starts 2025-03-13T13:53:18Z (last step: 379 msec , total: 379 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:53:18Z (last step: 13 msec , total: 393 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:54:35Z
+#=#=#=#=# Propagation starts 2025-03-13T13:54:35Z (last step: 415 msec , total: 415 msec) 
+2025-03-13T13:54:34+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741874065 | 84d4866aa51bc803f1cd18089dd740f1 | 827 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 827 | 1741873951 | c4870a4e-cb5c-43d7-98ba-a36ebf1e55f7 | 
+#=#=#=# Syncrun finished 2025-03-13T13:54:36Z (last step: 762 msec , total: 1178 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:55:16Z
+#=#=#=#=# Propagation starts 2025-03-13T13:55:16Z (last step: 367 msec , total: 367 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:55:16Z (last step: 5 msec , total: 372 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:59:55Z
+#=#=#=#=# Propagation starts 2025-03-13T13:59:56Z (last step: 1113 msec , total: 1113 msec) 
+2025-03-13T13:59:55+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741874393 | a0048745b2b102ff7c9ecac31078101b | 950 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 827 | 1741874065 | 2da937dc-bdce-435e-b37f-3bc0faca3886 | 
+#=#=#=# Syncrun finished 2025-03-13T13:59:57Z (last step: 802 msec , total: 1915 msec) 
+#=#=#=# Syncrun started 2025-03-13T13:59:58Z
+#=#=#=#=# Propagation starts 2025-03-13T13:59:58Z (last step: 198 msec , total: 198 msec) 
+#=#=#=# Syncrun finished 2025-03-13T13:59:58Z (last step: 3 msec , total: 201 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:00:15Z
+#=#=#=#=# Propagation starts 2025-03-13T14:00:15Z (last step: 267 msec , total: 267 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:00:15Z (last step: 3 msec , total: 270 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:08:49Z
+#=#=#=#=# Propagation starts 2025-03-13T14:08:49Z (last step: 191 msec , total: 191 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:08:49Z (last step: 4 msec , total: 196 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:09:50Z
+#=#=#=#=# Propagation starts 2025-03-13T14:09:51Z (last step: 266 msec , total: 266 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:09:51Z (last step: 5 msec , total: 272 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:10:52Z
+#=#=#=#=# Propagation starts 2025-03-13T14:10:52Z (last step: 186 msec , total: 186 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:10:52Z (last step: 6 msec , total: 193 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:11:53Z
+#=#=#=#=# Propagation starts 2025-03-13T14:11:54Z (last step: 288 msec , total: 288 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:11:54Z (last step: 4 msec , total: 293 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:12:54Z
+#=#=#=#=# Propagation starts 2025-03-13T14:12:55Z (last step: 377 msec , total: 377 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:12:55Z (last step: 4 msec , total: 381 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:13:56Z
+#=#=#=#=# Propagation starts 2025-03-13T14:13:57Z (last step: 296 msec , total: 296 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:13:57Z (last step: 4 msec , total: 301 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:14:58Z
+#=#=#=#=# Propagation starts 2025-03-13T14:14:59Z (last step: 369 msec , total: 369 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:14:59Z (last step: 4 msec , total: 374 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:16:00Z
+#=#=#=#=# Propagation starts 2025-03-13T14:16:01Z (last step: 294 msec , total: 294 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:16:01Z (last step: 3 msec , total: 297 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:17:02Z
+#=#=#=#=# Propagation starts 2025-03-13T14:17:03Z (last step: 358 msec , total: 358 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:17:03Z (last step: 3 msec , total: 361 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:18:04Z
+#=#=#=#=# Propagation starts 2025-03-13T14:18:05Z (last step: 197 msec , total: 197 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:18:05Z (last step: 4 msec , total: 201 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:19:06Z
+#=#=#=#=# Propagation starts 2025-03-13T14:19:06Z (last step: 313 msec , total: 313 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:19:06Z (last step: 4 msec , total: 317 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:20:08Z
+#=#=#=#=# Propagation starts 2025-03-13T14:20:09Z (last step: 224 msec , total: 224 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:20:09Z (last step: 4 msec , total: 228 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:21:10Z
+#=#=#=#=# Propagation starts 2025-03-13T14:21:11Z (last step: 393 msec , total: 393 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:21:11Z (last step: 3 msec , total: 397 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:22:12Z
+#=#=#=#=# Propagation starts 2025-03-13T14:22:13Z (last step: 334 msec , total: 334 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:22:13Z (last step: 8 msec , total: 342 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:23:15Z
+#=#=#=#=# Propagation starts 2025-03-13T14:23:15Z (last step: 201 msec , total: 201 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:23:15Z (last step: 3 msec , total: 205 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:24:14Z
+#=#=#=#=# Propagation starts 2025-03-13T14:24:15Z (last step: 242 msec , total: 242 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:24:15Z (last step: 4 msec , total: 246 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:24:17Z
+#=#=#=#=# Propagation starts 2025-03-13T14:24:17Z (last step: 300 msec , total: 300 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:24:17Z (last step: 5 msec , total: 305 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:39:26Z
+#=#=#=#=# Propagation starts 2025-03-13T14:39:26Z (last step: 301 msec , total: 301 msec) 
+2025-03-13T14:39:25+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741876761 | 780008729c943492be427c43f1cb1962 | 966 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 950 | 1741874393 | e35c2dd0-be94-4e26-822a-5e8f35795058 | 
+#=#=#=# Syncrun finished 2025-03-13T14:39:27Z (last step: 1021 msec , total: 1322 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:39:48Z
+#=#=#=#=# Propagation starts 2025-03-13T14:39:48Z (last step: 271 msec , total: 271 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:39:48Z (last step: 3 msec , total: 275 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:40:15Z
+#=#=#=#=# Propagation starts 2025-03-13T14:40:16Z (last step: 536 msec , total: 536 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:40:16Z (last step: 3 msec , total: 539 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:40:46Z
+#=#=#=#=# Propagation starts 2025-03-13T14:40:46Z (last step: 330 msec , total: 330 msec) 
+2025-03-13T14:40:45+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741876842 | 49f304a6a5f131a5dd558dddf66c33c6 | 938 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 966 | 1741876761 | 7c37d2c5-fcf7-401e-b204-a485fd80dfef | 
+#=#=#=# Syncrun finished 2025-03-13T14:40:47Z (last step: 924 msec , total: 1254 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:40:51Z
+#=#=#=#=# Propagation starts 2025-03-13T14:40:51Z (last step: 290 msec , total: 290 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:40:51Z (last step: 5 msec , total: 295 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:41:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:41:16Z (last step: 275 msec , total: 275 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:41:16Z (last step: 5 msec , total: 280 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:41:26Z
+#=#=#=#=# Propagation starts 2025-03-13T14:41:26Z (last step: 237 msec , total: 237 msec) 
+2025-03-13T14:41:25+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741876879 | 692297b7238982323d7320d8dc42d2f8 | 922 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 938 | 1741876842 | 1aca4a4d-b0ce-4e83-9d3a-ed94c3751746 | 
+#=#=#=# Syncrun finished 2025-03-13T14:41:27Z (last step: 816 msec , total: 1054 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:41:52Z
+#=#=#=#=# Propagation starts 2025-03-13T14:41:52Z (last step: 193 msec , total: 193 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:41:52Z (last step: 2 msec , total: 195 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:42:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:42:16Z (last step: 211 msec , total: 211 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:42:16Z (last step: 6 msec , total: 217 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:42:53Z
+#=#=#=#=# Propagation starts 2025-03-13T14:42:54Z (last step: 349 msec , total: 349 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:42:54Z (last step: 6 msec , total: 355 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:43:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:43:16Z (last step: 284 msec , total: 284 msec) 
+2025-03-13T14:43:15+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741876993 | d22351263cea78a1070e5af1f1b6cd98 | 916 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 922 | 1741876879 | e6bf9e0a-f430-4ddb-9379-a80861c51bfd | 
+#=#=#=# Syncrun finished 2025-03-13T14:43:17Z (last step: 920 msec , total: 1204 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:43:55Z
+#=#=#=#=# Propagation starts 2025-03-13T14:43:55Z (last step: 284 msec , total: 284 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:43:55Z (last step: 2 msec , total: 286 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:44:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:44:16Z (last step: 319 msec , total: 319 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:44:16Z (last step: 5 msec , total: 324 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:44:36Z
+#=#=#=#=# Propagation starts 2025-03-13T14:44:36Z (last step: 222 msec , total: 222 msec) 
+2025-03-13T14:44:35+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741877070 | 52aaade1caaaaaaeaccf561e89c3bf06 | 933 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 916 | 1741876993 | 4df2ea70-e895-4417-b51f-aaab3b8d37cd | 
+#=#=#=# Syncrun finished 2025-03-13T14:44:37Z (last step: 732 msec , total: 954 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:44:57Z
+#=#=#=#=# Propagation starts 2025-03-13T14:44:57Z (last step: 212 msec , total: 212 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:44:57Z (last step: 2 msec , total: 215 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:45:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:45:16Z (last step: 288 msec , total: 288 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:45:16Z (last step: 3 msec , total: 292 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:45:58Z
+#=#=#=#=# Propagation starts 2025-03-13T14:45:59Z (last step: 427 msec , total: 427 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:45:59Z (last step: 4 msec , total: 431 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:46:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:46:16Z (last step: 360 msec , total: 360 msec) 
+2025-03-13T14:46:15+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741877171 | f982fbdf71c9b79b9db45b7b3eecd902 | 916 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 933 | 1741877070 | d934852f-efe0-4cdb-a483-ce213209e0f9 | 
+#=#=#=# Syncrun finished 2025-03-13T14:46:17Z (last step: 1017 msec , total: 1378 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:47:01Z
+#=#=#=#=# Propagation starts 2025-03-13T14:47:01Z (last step: 199 msec , total: 199 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:47:01Z (last step: 7 msec , total: 206 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:47:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:47:16Z (last step: 408 msec , total: 408 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:47:16Z (last step: 3 msec , total: 412 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:48:02Z
+#=#=#=#=# Propagation starts 2025-03-13T14:48:03Z (last step: 307 msec , total: 307 msec) 
+2025-03-13T14:48:02+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741877280 | df444b75d8eea1da70799cee3ed0ef68 | 917 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 916 | 1741877171 | 74cd2539-bf05-422e-a503-1bf93fc7e243 | 
+#=#=#=# Syncrun finished 2025-03-13T14:48:04Z (last step: 916 msec , total: 1224 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:48:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:48:17Z (last step: 304 msec , total: 304 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:48:17Z (last step: 4 msec , total: 308 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:48:36Z
+#=#=#=#=# Propagation starts 2025-03-13T14:48:36Z (last step: 191 msec , total: 191 msec) 
+2025-03-13T14:48:35+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741877309 | 47c5c5bcc90ebdd4f3ea9ac86b974914 | 917 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 917 | 1741877280 | 49b3c9c2-9728-4860-b608-e92887640125 | 
+#=#=#=# Syncrun finished 2025-03-13T14:48:37Z (last step: 614 msec , total: 806 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:49:05Z
+#=#=#=#=# Propagation starts 2025-03-13T14:49:05Z (last step: 233 msec , total: 233 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:49:05Z (last step: 3 msec , total: 236 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:49:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:49:16Z (last step: 263 msec , total: 263 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:49:16Z (last step: 5 msec , total: 268 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:50:07Z
+#=#=#=#=# Propagation starts 2025-03-13T14:50:07Z (last step: 372 msec , total: 372 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:50:07Z (last step: 5 msec , total: 378 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:51:08Z
+#=#=#=#=# Propagation starts 2025-03-13T14:51:09Z (last step: 301 msec , total: 301 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:51:09Z (last step: 5 msec , total: 306 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:52:10Z
+#=#=#=#=# Propagation starts 2025-03-13T14:52:10Z (last step: 315 msec , total: 315 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:52:10Z (last step: 3 msec , total: 319 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:53:13Z
+#=#=#=#=# Propagation starts 2025-03-13T14:53:13Z (last step: 407 msec , total: 407 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:53:13Z (last step: 4 msec , total: 412 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:54:14Z
+#=#=#=#=# Propagation starts 2025-03-13T14:54:15Z (last step: 224 msec , total: 224 msec) 
+2025-03-13T14:54:14+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1741877648 | 6eb48a9949b03bccb46dfb79d3af0124 | 916 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 917 | 1741877309 | 749342c4-8afd-49af-bc6c-6437ab69ffc4 | 
+#=#=#=# Syncrun finished 2025-03-13T14:54:15Z (last step: 639 msec , total: 864 msec) 
+#=#=#=# Syncrun started 2025-03-13T14:54:16Z
+#=#=#=#=# Propagation starts 2025-03-13T14:54:16Z (last step: 210 msec , total: 210 msec) 
+#=#=#=# Syncrun finished 2025-03-13T14:54:16Z (last step: 3 msec , total: 213 msec) 
