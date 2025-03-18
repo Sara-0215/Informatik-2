@@ -1,4 +1,7 @@
 import streamlit as st
+from utils.data_manager import DataManager
+
+data_manager = DataManager(fs_protocol="webdav", fs_root_folder="App")
 
 # Titel der Unterseite
 st.title("🌍 CO₂-Fussabdruck Rechner")
@@ -60,22 +63,31 @@ def berechne_gesamt_co2(km_pro_tag_mehrere):
         gesamt_co2 += (CO2_WERTE[t] * km * 365) / 1000  # Umrechnung in kg
     return round(gesamt_co2, 2)
 
+data_manager.load_app_data(
+    session_state_key="co2_data",
+    file_name="co2_data.csv",
+    initial_value=pd.DataFrame(),
+    parse_dates=["timestamp"]
+)
+
+
 if st.button("Gesamt CO₂ berechnen"):
     gesamt_ergebnis = berechne_gesamt_co2(km_pro_tag_mehrere)
     st.success(f"Dein jährlicher CO₂-Ausstoss mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
 
-    # Daten speichern
-    daten = []
+
     for t, km in km_pro_tag_mehrere.items():
-        daten.append({
+        data_manager.append_record(
+            session_state_key="co2_data",
+            record_dict={
             "Transportmittel": t,
             "Kilometer pro Tag": km,
             "Jährlicher CO₂-Ausstoß (kg)": round((CO2_WERTE[t] * km * 365) / 1000, 2)
         })
 
-    df = pd.DataFrame(daten)
-    st.write("### Deine eingegebenen Daten")
-    st.dataframe(df)
+df = pd.DataFrame(st.session_state["co2_data"])
+st.write("### Deine eingegebenen Daten")
+st.dataframe(df)
 
 st.divider()  # Trennlinie
 
