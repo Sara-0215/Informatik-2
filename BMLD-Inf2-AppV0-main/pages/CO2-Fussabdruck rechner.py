@@ -27,7 +27,7 @@ st.markdown("### 🚗 Einzelne Transportmittel")
 
 
 transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()), key="transportmittel")
-km_pro_tag = st.number_input("Wie viele Kilometer fährst du pro Tag?", min_value=0.0, step=0.1)
+km_pro_tag = st.number_input("Wie viele Kilometer fährst du pro Tag?", min_value=0.0, step=0.1, key="km_pro_tag")
 
 # Berechnungsfunktion
 def berechne_co2(transportmittel, km_pro_tag):
@@ -50,7 +50,7 @@ st.divider()  # Trennlinie für bessere Struktur
 
 # Multi-Transportmittel Berechnung
 st.markdown("### Berechnung für mehrere Transportmittel")
-ausgewaehlte_transportmittel = st.multiselect("Wähle deine Transportmittel:", list(CO2_WERTE.keys()))
+ausgewaehlte_transportmittel = st.multiselect("Wähle deine Transportmittel:", list(CO2_WERTE.keys()), key="ausgewaehlte_transportmittel")
 
 km_pro_tag_mehrere = {}
 for t in ausgewaehlte_transportmittel:
