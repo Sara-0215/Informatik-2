@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 from utils.data_manager import DataManager
 
 data_manager = DataManager(fs_protocol="webdav", fs_root_folder="App")
