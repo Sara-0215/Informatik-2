@@ -1,8 +1,22 @@
+# ====== Start Login Block ======
+from utils.login_manager import LoginManager
+LoginManager().go_to_login('Start.py') 
+# ====== End Login Block ======
+
+
 import streamlit as st
 import pandas as pd
+from functions.co2_calculator import calculate_co2
 from utils.data_manager import DataManager
 
 data_manager = DataManager(fs_protocol="webdav", fs_root_folder="App")
+
+data_manager.load_user_data(
+    session_state_key="data_df",
+    file_name="data.csv",
+    initial_value=pd.DataFrame(),
+    parse_dates=["timestamp"]
+)
 
 # Titel der Unterseite
 st.title("🌍 CO₂-Fussabdruck Rechner")
@@ -64,13 +78,6 @@ def berechne_gesamt_co2(km_pro_tag_mehrere):
         gesamt_co2 += (CO2_WERTE[t] * km * 365) / 1000  # Umrechnung in kg
     return round(gesamt_co2, 2)
 
-data_manager.load_app_data(
-    session_state_key="co2_data",
-    file_name="co2_data.csv",
-    initial_value=pd.DataFrame(),
-    parse_dates=["timestamp"]
-)
-
 if st.button("Gesamt CO₂ berechnen"):
     gesamt_ergebnis = berechne_gesamt_co2(km_pro_tag_mehrere)
     st.success(f"Dein jährlicher CO₂-Ausstoss mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
@@ -78,14 +85,27 @@ if st.button("Gesamt CO₂ berechnen"):
 
     for t, km in km_pro_tag_mehrere.items():
         data_manager.append_record(
-            session_state_key="co2_data",
+            session_state_key="data.df",
             record_dict={
             "Transportmittel": t,
             "Kilometer pro Tag": km,
             "Jährlicher CO₂-Ausstoß (kg)": round((CO2_WERTE[t] * km * 365) / 1000, 2)
         })
 
-df = pd.DataFrame(st.session_state["co2_data"])
+# Benutzer-Eingabe
+transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()))
+km_pro_tag = st.number_input("Wie viele Kilometer fährst du pro Tag?", min_value=0.0, step=0.1)
+
+# Button zum Berechnen
+if st.button("CO₂ berechnen"):
+    ergebnis = calculate_co2(transportmittel, km_pro_tag)
+    st.success(f"Dein jährlicher CO₂-Ausstoß beträgt **{ergebnis['Jährlicher CO₂-Ausstoß (kg)']}** kg CO₂ pro Jahr.")
+    data_manager.append_record(
+        session_state_key="data_df",
+        record_dict=ergebnis
+    )
+
+df = pd.DataFrame(st.session_state["data.df"])
 st.write("### Deine eingegebenen Daten")
 st.dataframe(df)
 
@@ -116,7 +136,6 @@ st.bar_chart(
     use_container_width=True
 )
 st.divider()
-
 
 
 
