@@ -26,7 +26,7 @@ CO2_WERTE = {
 st.markdown("### 🚗 Einzelne Transportmittel")
 
 
-transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()))
+transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()), key="transportmittel")
 km_pro_tag = st.number_input("Wie viele Kilometer fährst du pro Tag?", min_value=0.0, step=0.1)
 
 # Berechnungsfunktion
