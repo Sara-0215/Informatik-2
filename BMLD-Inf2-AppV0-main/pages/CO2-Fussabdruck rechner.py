@@ -26,8 +26,8 @@ CO2_WERTE = {
 st.markdown("### 🚗 Einzelne Transportmittel")
 
 
-transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()), key="transportmittel")
-km_pro_tag = st.number_input("Wie viele Kilometer fährst du pro Tag?", min_value=0.0, step=0.1, key="km_pro_tag")
+transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()), key="transportmittel_select_1")
+km_pro_tag = st.number_input("Wie viele Kilometer fährst du pro Tag?", min_value=0.0, step=0.1, key="km_input_1")
 
 # Berechnungsfunktion
 def berechne_co2(transportmittel, km_pro_tag):
@@ -38,7 +38,7 @@ def berechne_co2(transportmittel, km_pro_tag):
     return round(co2_pro_jahr, 2)
 
 # Berechnung starten
-if st.button("CO₂ berechnen"):
+if st.button("CO₂ berechnen", key="co2_button_1"):
     ergebnis = berechne_co2(transportmittel, km_pro_tag)
     if ergebnis is not None:
         color = "green" if ergebnis < 1000 else "red"
@@ -63,7 +63,7 @@ def berechne_gesamt_co2(km_pro_tag_mehrere):
         gesamt_co2 += (CO2_WERTE[t] * km * 365) / 1000  # Umrechnung in kg
     return round(gesamt_co2, 2)
 
-if st.button("Gesamt CO₂ berechnen"):
+if st.button("Gesamt CO₂ berechnen", key="co2_button_2"):
     gesamt_ergebnis = berechne_gesamt_co2(km_pro_tag_mehrere)
     st.success(f"Dein jährlicher CO₂-Ausstoss mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
 
@@ -78,11 +78,11 @@ if st.button("Gesamt CO₂ berechnen"):
         })
 
 # Benutzer-Eingabe
-transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()))
+transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()), key="transportmittel_select_2")
 km_pro_tag = st.number_input("Wie viele Kilometer fährst du pro Tag?", min_value=0.0, step=0.1)
 
 # Button zum Berechnen
-if st.button("CO₂ berechnen"):
+if st.button("CO₂ berechnen", key="co2_button_3"):
     ergebnis = calculate_co2(transportmittel, km_pro_tag)
     st.success(f"Dein jährlicher CO₂-Ausstoß beträgt **{ergebnis['Jährlicher CO₂-Ausstoß (kg)']}** kg CO₂ pro Jahr.")
     DataManager.append_record(
