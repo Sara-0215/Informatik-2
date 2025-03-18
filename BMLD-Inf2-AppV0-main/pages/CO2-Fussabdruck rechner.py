@@ -24,7 +24,7 @@ CO2_WERTE = {
 }
 
 # Multi-Transportmittel Berechnung
-st.markdown("### Berechnung für mehrere Transportmittel")
+st.markdown("### 🚗 Berechnung für mehrere Transportmittel")
 ausgewaehlte_transportmittel = st.multiselect("Wähle deine Transportmittel:", list(CO2_WERTE.keys()), key="ausgewaehlte_transportmittel")
 
 km_pro_tag_mehrere = {}
