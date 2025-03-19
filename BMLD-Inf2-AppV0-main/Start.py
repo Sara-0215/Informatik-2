@@ -1,9 +1,11 @@
 # ====== Start Init Block ======
 # This needs to copied on top of the entry point of the app (Start.py)
-
+import streamlit as st
 import pandas as pd
 from utils.data_manager import DataManager
 from utils.login_manager import LoginManager
+
+st.title("Meine erste Streamlit App")
 
 # initialize the data manager
 data_manager = DataManager(fs_protocol='webdav', fs_root_folder="CO2-Fussabdruck")  # switch drive 
@@ -20,9 +22,6 @@ data_manager.load_user_data(
     parse_dates = ['timestamp']
 )
 #from utils.data_manager import DataManager
-
-import streamlit as st
-st.title("Meine erste Streamlit App")
 
 # !! WICHTIG: Eure Emails müssen in der App erscheinen!!
 
