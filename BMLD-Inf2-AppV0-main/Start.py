@@ -17,7 +17,7 @@ login_manager.login_register()
 # load the data from the persistent storage into the session state
 data_manager.load_user_data(
     session_state_key='data_df', 
-    file_name='data.csv', 
+    file_name='user_data_krasalb/data.csv', 
     initial_value = pd.DataFrame(), 
     parse_dates = ['timestamp']
 )
