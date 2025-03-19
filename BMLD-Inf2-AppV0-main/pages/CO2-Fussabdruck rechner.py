@@ -44,7 +44,7 @@ if st.button("Gesamt CO₂ berechnen", key="co2_button_2"):
 
 
     for t, km in km_pro_tag_mehrere.items():
-        DataManager.append_record(
+        DataManager().append_record(
             session_state_key="data_df",
             record_dict={
             "Transportmittel": t,
@@ -60,7 +60,7 @@ km_pro_tag = st.number_input("Wie viele Kilometer fährst du pro Tag?", min_valu
 if st.button("CO₂ berechnen", key="co2_button_3"):
     ergebnis = calculate_co2(transportmittel, km_pro_tag)
     st.success(f"Dein jährlicher CO₂-Ausstoß beträgt **{ergebnis['Jährlicher CO₂-Ausstoß (kg)']}** kg CO₂ pro Jahr.")
-    DataManager.append_record(
+    DataManager().append_record(
         session_state_key="data_df",
         record_dict=ergebnis
     )
