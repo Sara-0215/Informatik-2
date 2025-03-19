@@ -55,7 +55,7 @@ if st.button("CO₂ berechnen", key="co2_button"):
     }
 
     # Daten in Session State `data_df` einfügen
-    st.session_state["data_df"] = st.session_state["data_df"].append(neuer_eintrag, ignore_index=True)
+    st.session_state["data_df"] = pd.concat([st.session_state["data_df"], pd.DataFrame([neuer_eintrag])], ignore_index=True)
 
     # Daten mit DataManager speichern
     data_manager = DataManager()
