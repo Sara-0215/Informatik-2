@@ -18,11 +18,8 @@ data_manager.load_user_data(
     file_name='data.csv', 
     initial_value = pd.DataFrame(), 
     parse_dates = ['timestamp']
-    )
-# ====== End Init Block ======
-
-# ------------------------------------------------------------
-# Here starts the actual app, which was developed previously
+)
+#from utils.data_manager import DataManager
 
 import streamlit as st
 st.title("Meine erste Streamlit App")
