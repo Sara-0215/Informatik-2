@@ -51,7 +51,14 @@ if st.button("CO₂ berechnen", key="co2_button"):
         }
     )
 from utils.data_manager import DataManager
-DataManager().append_record(session_state_key="data_df", record_dict = gesamt_ergebnis)
+DataManager().append_record(
+    session_state_key="data_df",
+    record_dict={
+        "Transportmittel": transportmittel,
+        "Kilometer pro Tag": km_pro_tag,
+        "Jährlicher CO₂-Ausstoß (kg)": gesamt_ergebnis
+    }
+)
 
 st.divider()  # Trennlinie
 
