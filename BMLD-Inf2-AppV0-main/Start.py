@@ -14,20 +14,14 @@ data_manager = DataManager(fs_protocol='webdav', fs_root_folder="CO2-Fussabdruck
 login_manager = LoginManager(data_manager)
 login_manager.login_register()
 
-# Sicherstellen, dass `data_df` im Session State existiert
-if "data_df" not in st.session_state:
-    st.session_state["data_df"] = pd.DataFrame()
-
 # load the data from the persistent storage into the session state
 data_manager.load_user_data(
     session_state_key='data_df', 
     file_name='data.csv', 
-    initial_value = st.session_state["data_df"], 
-    parse_dates = []
+    initial_value = pd.DataFrame(), 
+    parse_dates = ['timestamp']
 )
-
-st.write("### Debugging: Geladene Daten")
-st.dataframe(st.session_state["data_df"]) 
+#from utils.data_manager import DataManager
 
 # !! WICHTIG: Eure Emails müssen in der App erscheinen!!
 

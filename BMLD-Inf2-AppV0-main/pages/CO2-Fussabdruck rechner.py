@@ -22,20 +22,12 @@ CO2_WERTE = {
     "E-Bus": 50,
     "Tram": 30
 }
-
-# Sicherstellen, dass 'data_df' im Session State existiert
-if "data_df" not in st.session_state:
-    st.session_state["data_df"] = pd.DataFrame()
-
 # Transportmittel Berechnung
 st.markdown("### 🚗 Berechnung für ein Transportmittel")
 transportmittel = st.selectbox("Wähle deine Transportmittel:", list(CO2_WERTE.keys()), key="transportmittel_select")
 
 # Kilometer pro Tag eingeben
 km_pro_tag = st.number_input(f"Wie viele Kilometer fährst du pro Tag mit {transportmittel}?", min_value=0.0, step=0.1, key="km_input")
-
-# **Definiere gesamt_ergebnis mit einem Standardwert**
-gesamt_ergebnis = 0.0
 
 def berechne_co2(transportmittel, km_pro_tag):
     """Berechnet den jährlichen CO₂-Ausstoss basierend auf dem gewählten Transportmitteln."""
@@ -54,13 +46,8 @@ if st.button("CO₂ berechnen", key="co2_button"):
         "Jährlicher CO₂-Ausstoss (kg)": gesamt_ergebnis
     }
 
-    # Daten in Session State `data_df` einfügen
-    st.session_state["data_df"] = pd.concat([st.session_state["data_df"], pd.DataFrame([neuer_eintrag])], ignore_index=True)
-
-    # Daten mit DataManager speichern
-    data_manager = DataManager()
-    data_manager.append_record(session_state_key="data_df", record_dict=neuer_eintrag)
-    data_manager.save_data("data_df")
+      # **Daten mit `DataManager` speichern**
+    DataManager().append_record(session_state_key="data_df", record_dict=neuer_eintrag)
 
 # Gespeicherte Daten anzeigen
 st.write("### Deine gespeicherten Daten")
