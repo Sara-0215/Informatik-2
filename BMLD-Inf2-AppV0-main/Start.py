@@ -8,7 +8,7 @@ from utils.login_manager import LoginManager
 st.title("Meine erste Streamlit App")
 
 # initialize the data manager
-data_manager = DataManager(fs_protocol='webdav', fs_root_folder="user_data_krasalb")  # switch drive 
+data_manager = DataManager(fs_protocol='webdav', fs_root_folder="CO2-Fussabdruck")  # switch drive 
 
 # initialize the login manager
 login_manager = LoginManager(data_manager)
