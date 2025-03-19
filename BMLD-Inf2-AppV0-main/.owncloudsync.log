@@ -3376,3 +3376,34 @@ Log for:C:/Users/sarac/OneDrive - ZHAW/School/2. Sem FS25/Informatik 2/BMLD-Inf2
 #=#=#=# Syncrun started 2025-03-19T07:00:39Z
 #=#=#=#=# Propagation starts 2025-03-19T07:00:39Z (last step: 715 msec , total: 715 msec) 
 #=#=#=# Syncrun finished 2025-03-19T07:00:39Z (last step: 3 msec , total: 718 msec) 
+#=#=#=# Syncrun started 2025-03-19T07:09:30Z
+#=#=#=#=# Propagation starts 2025-03-19T07:09:30Z (last step: 709 msec , total: 709 msec) 
+2025-03-19T07:09:29+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1742368167 | 692243a6dde8d1f9c4f7593de85ae10d | 1142 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 916 | 1741877648 | 08d08830-f947-4b58-a171-24ca7800a6f0 | 
+#=#=#=# Syncrun finished 2025-03-19T07:09:32Z (last step: 1321 msec , total: 2031 msec) 
+#=#=#=# Syncrun started 2025-03-19T07:09:37Z
+#=#=#=#=# Propagation starts 2025-03-19T07:09:37Z (last step: 831 msec , total: 831 msec) 
+#=#=#=# Syncrun finished 2025-03-19T07:09:37Z (last step: 5 msec , total: 837 msec) 
+#=#=#=# Syncrun started 2025-03-19T07:10:30Z
+#=#=#=#=# Propagation starts 2025-03-19T07:10:31Z (last step: 1293 msec , total: 1293 msec) 
+2025-03-19T07:10:30+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1742368227 | e4a5fd2ffb4a2289a37daa3fb186ca66 | 1166 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 1142 | 1742368167 | 94d22aa7-e473-4439-9f86-b386c85cb389 | 
+#=#=#=# Syncrun finished 2025-03-19T07:10:32Z (last step: 1501 msec , total: 2794 msec) 
+#=#=#=# Syncrun started 2025-03-19T07:10:40Z
+#=#=#=#=# Propagation starts 2025-03-19T07:10:41Z (last step: 1190 msec , total: 1190 msec) 
+#=#=#=# Syncrun finished 2025-03-19T07:10:41Z (last step: 4 msec , total: 1195 msec) 
+#=#=#=# Syncrun started 2025-03-19T07:13:40Z
+#=#=#=#=# Propagation starts 2025-03-19T07:13:41Z (last step: 931 msec , total: 931 msec) 
+2025-03-19T07:13:39+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1742368413 | 88c49e6dd23607f55e78d25d4369a57b | 1334 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 1166 | 1742368227 | f42c3fa8-31c7-4441-a73a-8beb418dd2f8 | 
+#=#=#=# Syncrun finished 2025-03-19T07:13:42Z (last step: 1381 msec , total: 2313 msec) 
+#=#=#=# Syncrun started 2025-03-19T07:14:36Z
+#=#=#=#=# Propagation starts 2025-03-19T07:14:37Z (last step: 751 msec , total: 751 msec) 
+#=#=#=# Syncrun finished 2025-03-19T07:14:37Z (last step: 3 msec , total: 755 msec) 
+#=#=#=# Syncrun started 2025-03-19T07:15:50Z
+#=#=#=#=# Propagation starts 2025-03-19T07:15:50Z (last step: 436 msec , total: 436 msec) 
+2025-03-19T07:15:49+00:00 | Start.py | CSyncEnums::CSYNC_INSTRUCTION_SYNC | OCC::SyncFileItem::Up | | 1742368543 | e1bd0cf9effe8a4ce72c0900f5b5b406 | 1334 | 8399505719oc641cdd42e0 | OCC::SyncFileItem::Success |  | 204 | 1334 | 1742368413 | c8249dc4-4799-4967-a139-44145170e97a | 
+#=#=#=# Syncrun finished 2025-03-19T07:15:51Z (last step: 1116 msec , total: 1553 msec) 
+#=#=#=# Syncrun started 2025-03-19T07:16:09Z
+#=#=#=#=# Propagation starts 2025-03-19T07:16:10Z (last step: 792 msec , total: 792 msec) 
+#=#=#=# Syncrun finished 2025-03-19T07:16:10Z (last step: 5 msec , total: 798 msec) 
+#=#=#=# Syncrun started 2025-03-19T07:16:34Z
+#=#=#=#=# Propagation starts 2025-03-19T07:16:34Z (last step: 324 msec , total: 324 msec) 
+#=#=#=# Syncrun finished 2025-03-19T07:16:34Z (last step: 3 msec , total: 327 msec) 
