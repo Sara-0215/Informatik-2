@@ -8,7 +8,7 @@ from utils.login_manager import LoginManager
 st.title("Meine erste Streamlit App")
 
 # initialize the data manager
-data_manager = DataManager(fs_protocol='webdav', fs_root_folder="CO2-Fussabdruck")  # switch drive 
+data_manager = DataManager(fs_protocol='webdav', fs_root_folder="user_data_krasalb")  # switch drive 
 
 # initialize the login manager
 login_manager = LoginManager(data_manager)
@@ -17,7 +17,7 @@ login_manager.login_register()
 # load the data from the persistent storage into the session state
 data_manager.load_user_data(
     session_state_key='data_df', 
-    file_name='user_data_krasalb/data.csv', 
+    file_name='data.csv', 
     initial_value = pd.DataFrame(), 
     parse_dates = ['timestamp']
 )
