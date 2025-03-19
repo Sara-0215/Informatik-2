@@ -45,7 +45,7 @@ if st.button("Gesamt CO₂ berechnen", key="co2_button_2"):
 
     for t, km in km_pro_tag_mehrere.items():
         DataManager.append_record(
-            session_state="data.df",
+            session_state="data_df",
             record_dict={
             "Transportmittel": t,
             "Kilometer pro Tag": km,
@@ -65,7 +65,7 @@ if st.button("CO₂ berechnen", key="co2_button_3"):
         record_dict=ergebnis
     )
 
-df = pd.DataFrame(st.session_state["data.df"])
+df = pd.DataFrame(st.session_state["data_df"])
 st.write("### Deine eingegebenen Daten")
 st.dataframe(df)
 
