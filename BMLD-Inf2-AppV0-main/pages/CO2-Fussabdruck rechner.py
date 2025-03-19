@@ -29,7 +29,7 @@ transportmittel = st.selectbox("Wähle deine Transportmittel:", list(CO2_WERTE.k
 
 km_pro_tag = {}
 for t in transportmittel:
-    km_pro_tag[t] = st.number_input(f"Wie viele Kilometer fährst du pro Tag mit {t}?", min_value=0.0, step=0.1, key="km_pro_tag_1") 
+    km_pro_tag[t] = st.number_input(f"Wie viele Kilometer fährst du pro Tag mit {t}?", min_value=0.0, step=0.1, key="km_input_{t.replace(' ', '_')}") 
 
 def berechne_co2(transportmittel, km_pro_tag):
     """Berechnet den jährlichen CO₂-Ausstoss basierend auf dem gewählten Transportmitteln."""
