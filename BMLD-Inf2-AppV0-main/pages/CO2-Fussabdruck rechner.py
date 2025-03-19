@@ -61,7 +61,7 @@ if st.button("CO₂ berechnen", key="co2_button_3"):
     ergebnis = calculate_co2(transportmittel, km_pro_tag)
     st.success(f"Dein jährlicher CO₂-Ausstoß beträgt **{ergebnis['Jährlicher CO₂-Ausstoß (kg)']}** kg CO₂ pro Jahr.")
     DataManager.append_record(
-        session_state="data_df",
+        session_state_key="data_df",
         record_dict=ergebnis
     )
 
