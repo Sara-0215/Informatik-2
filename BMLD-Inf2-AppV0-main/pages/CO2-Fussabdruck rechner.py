@@ -52,7 +52,8 @@ if st.button("CO₂ berechnen", key="co2_button"):
 
       # **Daten mit `DataManager` speichern**
     DataManager().append_record(session_state_key="data_df", record_dict=neuer_eintrag)
-    DataManager.save_data("data_df")
+    data_manager = DataManager()
+    data_manager.save_data("data_df")
 
 # Gespeicherte Daten anzeigen
 st.write("### Deine gespeicherten Daten")
