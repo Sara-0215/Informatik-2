@@ -30,6 +30,9 @@ transportmittel = st.selectbox("Wähle deine Transportmittel:", list(CO2_WERTE.k
 # Kilometer pro Tag eingeben
 km_pro_tag = st.number_input(f"Wie viele Kilometer fährst du pro Tag mit {transportmittel}?", min_value=0.0, step=0.1, key="km_input")
 
+# **Definiere gesamt_ergebnis mit einem Standardwert**
+gesamt_ergebnis = None
+
 def berechne_co2(transportmittel, km_pro_tag):
     """Berechnet den jährlichen CO₂-Ausstoss basierend auf dem gewählten Transportmitteln."""
     if transportmittel not in CO2_WERTE:
@@ -50,15 +53,6 @@ if st.button("CO₂ berechnen", key="co2_button"):
             "Jährlicher CO₂-Ausstoss (kg)": gesamt_ergebnis
         }
     )
-from utils.data_manager import DataManager
-DataManager().append_record(
-    session_state_key="data_df",
-    record_dict={
-        "Transportmittel": transportmittel,
-        "Kilometer pro Tag": km_pro_tag,
-        "Jährlicher CO₂-Ausstoß (kg)": gesamt_ergebnis
-    }
-)
 
 st.divider()  # Trennlinie
 
