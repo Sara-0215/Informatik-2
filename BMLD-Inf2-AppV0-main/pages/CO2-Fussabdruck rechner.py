@@ -45,7 +45,7 @@ if st.button("Gesamt CO₂ berechnen", key="co2_button_2"):
 
     for t, km in km_pro_tag_mehrere.items():
         DataManager.append_record(
-            session_state="data_df",
+            session_state_key="data_df",
             record_dict={
             "Transportmittel": t,
             "Kilometer pro Tag": km,
