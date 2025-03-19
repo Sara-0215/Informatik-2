@@ -29,7 +29,7 @@ transportmittel = st.selectbox("Wähle deine Transportmittel:", list(CO2_WERTE.k
 
 km_pro_tag = {}
 for t in transportmittel:
-    km_pro_tag[t] = st.number_input(f"Wie viele Kilometer fährst du pro Tag mit {t}?", min_value=0.0, step=0.1, key=f"km_pro_tag_{t}")
+    km_pro_tag[t] = st.number_input(f"Wie viele Kilometer fährst du pro Tag mit {t}?", min_value=0.0, step=0.1, key="km_pro_tag") 
 
 def berechne_co2(transportmittel, km_pro_tag):
     """Berechnet den jährlichen CO₂-Ausstoss basierend auf dem gewählten Transportmitteln."""
@@ -65,7 +65,7 @@ import streamlit as st
 average_co2 = 3090
 
 # Benutzer-Eingabe für CO₂-Verbrauch
-user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1)
+user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1, key="user_co2")
 
 # Daten vorbereiten
 data = pd.DataFrame({
