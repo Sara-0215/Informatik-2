@@ -27,9 +27,8 @@ CO2_WERTE = {
 st.markdown("### 🚗 Berechnung für ein Transportmittel")
 transportmittel = st.selectbox("Wähle deine Transportmittel:", list(CO2_WERTE.keys()), key="transportmittel_select")
 
-km_pro_tag = {}
-for t in transportmittel:
-    km_pro_tag[t] = st.number_input(f"Wie viele Kilometer fährst du pro Tag mit {t}?", min_value=0.0, step=0.1, key="km_input_{t.replace(' ', '_')}") 
+# Kilometer pro Tag eingeben
+km_pro_tag = st.number_input(f"Wie viele Kilometer fährst du pro Tag mit {transportmittel}?", min_value=0.0, step=0.1, key="km_input")
 
 def berechne_co2(transportmittel, km_pro_tag):
     """Berechnet den jährlichen CO₂-Ausstoss basierend auf dem gewählten Transportmitteln."""
@@ -48,18 +47,15 @@ if st.button("CO₂ berechnen", key="co2_button"):
         record_dict={
             "Transportmittel": transportmittel,
             "Kilometer pro Tag": km_pro_tag,
-            "Jährlicher CO₂-Ausstoß (kg)": gesamt_ergebnis
+            "Jährlicher CO₂-Ausstoss (kg)": gesamt_ergebnis
         }
     )
  # Anzeigen der gespeicherten Daten
-    df = st.session_state.get("data_df", [])
+    df = pd.DataFrame(st.session_state.get("data_df", []))
     st.write("### Deine gespeicherten Daten")
     st.dataframe(df)
 
 st.divider()  # Trennlinie
-
-import pandas as pd
-import streamlit as st
 
 # Durchschnittlicher CO₂-Verbrauch eines Schweizers (in kg pro Jahr)
 average_co2 = 3090
