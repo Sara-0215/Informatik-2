@@ -10,6 +10,10 @@ st.write("Berechne deinen jährlichen CO₂-Ausstoss basierend auf deinem Transp
 
 st.divider() # Trennlinie
 
+# Sicherstellen, dass die Session-State Variable existiert
+if 'data_df' not in st.session_state:
+    st.session_state['data_df'] = pd.DataFrame(columns=["Transportmittel", "Kilometer pro Tag", "Jährlicher CO₂-Ausstoss (kg)", "timestamp"])
+
 # CO₂-Emissionen pro km für verschiedene Transportmittel
 CO2_WERTE = {
     "Auto (Benzin)": 120,
