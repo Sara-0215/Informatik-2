@@ -24,45 +24,32 @@ CO2_WERTE = {
 }
 
 # Multi-Transportmittel Berechnung
-st.markdown("### 🚗 Berechnung für mehrere Transportmittel")
-ausgewaehlte_transportmittel = st.multiselect("Wähle deine Transportmittel:", list(CO2_WERTE.keys()), key="ausgewaehlte_transportmittel")
+st.markdown("### 🚗 Berechnung für ein Transportmittel")
+transportmittel = st.selectbox("Wähle deine Transportmittel:", list(CO2_WERTE.keys()), key="transportmittel_select")
 
-km_pro_tag_mehrere = {}
-for t in ausgewaehlte_transportmittel:
-    km_pro_tag_mehrere[t] = st.number_input(f"Wie viele Kilometer fährst du pro Tag mit {t}?", min_value=0.0, step=0.1, key=t)
+km_pro_tag = {}
+for t in transportmittel:
+    km_pro_tag[t] = st.number_input(f"Wie viele Kilometer fährst du pro Tag mit {t}?", min_value=0.0, step=0.1)
 
-def berechne_gesamt_co2(km_pro_tag_mehrere):
-    """Berechnet den jährlichen CO₂-Ausstoss basierend auf mehreren Transportmitteln und deren täglicher Strecke."""
-    gesamt_co2 = 0
-    for t, km in km_pro_tag_mehrere.items():
-        gesamt_co2 += (CO2_WERTE[t] * km * 365) / 1000  # Umrechnung in kg
-    return round(gesamt_co2, 2)
+def berechne_co2(transportmittel, km_pro_tag):
+    """Berechnet den jährlichen CO₂-Ausstoss basierend auf dem gewählten Transportmitteln."""
+    if transportmittel not in CO2_WERTE:
+        return 0
+    return round((CO2_WERTE[transportmittel] * km_pro_tag * 365) / 1000, 2)  # Umrechnung in kg
 
-if st.button("Gesamt CO₂ berechnen", key="co2_button_2"):
-    gesamt_ergebnis = berechne_gesamt_co2(km_pro_tag_mehrere)
+if st.button("CO₂ berechnen", key="co2_button"):
+    gesamt_ergebnis = berechne_co2(transportmittel, km_pro_tag)
     st.success(f"Dein jährlicher CO₂-Ausstoss mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
 
-
-    for t, km in km_pro_tag_mehrere.items():
-        DataManager().append_record(
-            session_state_key="data_df",
-            record_dict={
-            "Transportmittel": t,
-            "Kilometer pro Tag": km,
-            "Jährlicher CO₂-Ausstoß (kg)": round((CO2_WERTE[t] * km * 365) / 1000, 2)
-        })
-
-# Benutzer-Eingabe
-transportmittel = st.selectbox("Wähle dein Transportmittel:", list(CO2_WERTE.keys()), key="transportmittel_select_2")
-km_pro_tag = st.number_input("Wie viele Kilometer fährst du pro Tag?", min_value=0.0, step=0.1)
-
-# Button zum Berechnen
-if st.button("CO₂ berechnen", key="co2_button_3"):
-    ergebnis = calculate_co2(transportmittel, km_pro_tag)
-    st.success(f"Dein jährlicher CO₂-Ausstoß beträgt **{ergebnis['Jährlicher CO₂-Ausstoß (kg)']}** kg CO₂ pro Jahr.")
-    DataManager().append_record(
+ # Speichern der Daten mit DataManager
+    data_manager = DataManager()
+    data_manager.append_record(
         session_state_key="data_df",
-        record_dict=ergebnis
+        record_dict={
+            "Transportmittel": transportmittel,
+            "Kilometer pro Tag": km_pro_tag,
+            "Jährlicher CO₂-Ausstoß (kg)": gesamt_ergebnis
+        }
     )
 
 df = pd.DataFrame(st.session_state["data_df"])
