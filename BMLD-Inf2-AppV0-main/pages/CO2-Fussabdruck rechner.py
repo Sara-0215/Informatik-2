@@ -50,10 +50,8 @@ if st.button("CO₂ berechnen", key="co2_button"):
             "Jährlicher CO₂-Ausstoss (kg)": gesamt_ergebnis
         }
     )
- # Anzeigen der gespeicherten Daten
-    df = pd.DataFrame(st.session_state.get("data_df", []))
-    st.write("### Deine gespeicherten Daten")
-    st.dataframe(df)
+from utils.data_manager import DataManager
+DataManager().append_record(session_state_key="data_df", record_dict = gesamt_ergebnis)
 
 st.divider()  # Trennlinie
 
