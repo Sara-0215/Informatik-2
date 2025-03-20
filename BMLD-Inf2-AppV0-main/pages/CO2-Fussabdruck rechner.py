@@ -59,30 +59,30 @@ if st.button("CO₂ berechnen", key="co2_button"):
     st.write("### Deine gespeicherten Daten")
     st.dataframe(st.session_state["data_df"])
 
-st.divider()  # Trennlinie
+    st.divider()  # Trennlinie
 
 # Durchschnittlicher CO₂-Verbrauch eines Schweizers (in kg pro Jahr)
-average_co2 = 3090
+    average_co2 = 3090
 
 # Benutzer-Eingabe für CO₂-Verbrauch
-user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1, key="user_co2_input")
+    user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1, key="user_co2_input")
 
 # Daten vorbereiten
-data = pd.DataFrame({
-    "Kategorie": ["Durchschnittlicher Schweizer", "Dein Verbrauch"],
-    "CO₂-Verbrauch (kg/Jahr)": [average_co2, user_co2],
-    "Farbe": ["#FF4B4B" if user_co2 > average_co2 else "#32CD32", "#32CD32"]
+    data = pd.DataFrame({
+        "Kategorie": ["Durchschnittlicher Schweizer", "Dein Verbrauch"],
+        "CO₂-Verbrauch (kg/Jahr)": [average_co2, user_co2],
+        "Farbe": ["#FF4B4B" if user_co2 > average_co2 else "#32CD32", "#32CD32"]
 })
 
 # Balkendiagramm anzeigen
-st.bar_chart(
-    data.set_index("Kategorie"),
-    y="CO₂-Verbrauch (kg/Jahr)",
-    color="Farbe",
-    horizontal=True,  # hier setzen wir horizontal=True
-    use_container_width=True
+    st.bar_chart(
+        data.set_index("Kategorie"),
+        y="CO₂-Verbrauch (kg/Jahr)",
+        color="Farbe",
+        horizontal=True,  # hier setzen wir horizontal=True
+        use_container_width=True
 )
-st.divider()
+    st.divider()
 
 
 
