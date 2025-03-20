@@ -55,9 +55,9 @@ if st.button("CO₂ berechnen", key="co2_button"):
     data_manager.append_record(session_state_key="data_df", record_dict=neuer_eintrag)
     data_manager.save_data("data_df")  # Speichern nach jeder Änderung
 
-# Gespeicherte Daten anzeigen
-st.write("### Deine gespeicherten Daten")
-st.dataframe(st.session_state["data_df"])
+    # Gespeicherte Daten anzeigen
+    st.write("### Deine gespeicherten Daten")
+    st.dataframe(st.session_state["data_df"])
 
 st.divider()  # Trennlinie
 
