@@ -18,8 +18,7 @@ login_manager.login_register()
 data_manager.load_user_data(
     session_state_key='data_df', 
     file_name='data.csv', 
-    initial_value = pd.DataFrame(columns=["Transportmittel", "Kilometer pro Tag", "Jährlicher CO₂-Ausstoss (kg)", "timestamp"]),
-    parse_dates=["timestamp"]
+    initial_value = pd.DataFrame(columns=["Transportmittel", "Kilometer pro Tag", "Jährlicher CO₂-Ausstoss (kg)",]),
 )
 #from utils.data_manager import DataManager
 
