@@ -61,7 +61,7 @@ if st.button("CO₂ berechnen", key="co2_button"):
     st.divider()  # Trennlinie
 
 # Durchschnittlicher CO₂-Verbrauch eines Schweizers (in kg pro Jahr)
-average_co2 = 3090
+average_co2 = 1156
 
 # Benutzer-Eingabe für CO₂-Verbrauch
 user_co2 = st.number_input("Gib deinen jährlichen CO₂-Verbrauch in kg ein:", min_value=0.0, step=0.1, key="user_co2_input")
