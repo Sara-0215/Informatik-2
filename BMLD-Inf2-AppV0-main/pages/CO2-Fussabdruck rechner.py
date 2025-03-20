@@ -51,9 +51,9 @@ if st.button("CO₂ berechnen", key="co2_button"):
         "Kilometer pro Tag": km_pro_tag,
         "Jährlicher CO₂-Ausstoss (kg)": gesamt_ergebnis
     }
-data_manager = DataManager()
-data_manager.append_record(session_state_key="data_df", record_dict=neuer_eintrag)
-data_manager.save_data("data_df")  # Speichern nach jeder Änderung
+    data_manager = DataManager()
+    data_manager.append_record(session_state_key="data_df", record_dict=neuer_eintrag)
+    data_manager.save_data("data_df")  # Speichern nach jeder Änderung
 
 # Gespeicherte Daten anzeigen
 st.write("### Deine gespeicherten Daten")
