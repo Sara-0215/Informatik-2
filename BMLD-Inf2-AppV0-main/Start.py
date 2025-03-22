@@ -4,7 +4,6 @@ import streamlit as st
 import pandas as pd
 from utils.data_manager import DataManager
 from utils.login_manager import LoginManager
-from utils.helpers import ch_now
 
 st.title("Meine erste Streamlit App")
 
