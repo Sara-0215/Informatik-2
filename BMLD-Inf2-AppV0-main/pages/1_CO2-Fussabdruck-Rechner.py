@@ -44,7 +44,6 @@ neuer_eintrag = {}
 if st.button("CO₂ berechnen", key="co2_button"):
     gesamt_ergebnis = berechne_co2(transportmittel, km_pro_tag)
     st.success(f"Dein jährlicher CO₂-Ausstoss mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
-
     
     neuer_eintrag = {
         "Transportmittel": transportmittel,
