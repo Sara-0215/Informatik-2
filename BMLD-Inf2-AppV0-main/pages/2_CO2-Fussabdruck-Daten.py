@@ -6,7 +6,7 @@ st.title("🌍 CO₂-Fussabdruck Daten")
 # Sicherstellen, dass die Session-State Variable existiert
 data_df = st.session_state["data_df"]
 if 'data_df' not in st.session_state:
-    st.session_state['data_df'] = pd.DataFrame(columns=["Transportmittel", "Kilometer pro Tag", "CO₂ (kg/Jahr)"])
+    st.session_state['data_df'] = pd.DataFrame(columns=["Transportmittel", "Kilometer pro Tag", "CO₂ (kg/Jahr)", "timestamp"])
 
 data_df = st.session_state['data_df']
 

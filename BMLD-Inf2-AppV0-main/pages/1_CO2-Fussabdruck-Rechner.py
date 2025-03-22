@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from functions.co2_calculator import calculate_co2
 from utils.data_manager import DataManager
+from utils.helpers import ch_now
 
 # Titel der Unterseite
 st.title("🌍 CO₂-Fussabdruck Rechner")
@@ -45,11 +46,12 @@ if st.button("CO₂ berechnen", key="co2_button"):
     gesamt_ergebnis = berechne_co2(transportmittel, km_pro_tag)
     st.success(f"Dein jährlicher CO₂-Ausstoss mit den ausgewählten Transportmitteln beträgt **{gesamt_ergebnis} kg CO₂** pro Jahr.")
 
-    # Speichern der Daten als Dictionary
+    
     neuer_eintrag = {
         "Transportmittel": transportmittel,
         "Kilometer pro Tag": km_pro_tag,
-        "Jährlicher CO₂-Ausstoss (kg)": gesamt_ergebnis
+        "Jährlicher CO₂-Ausstoss (kg)": gesamt_ergebnis,
+        'timestamp': ch_now()
     }
     data_manager = DataManager()
     data_manager.append_record(session_state_key="data_df", record_dict=neuer_eintrag)
